@@ -45,6 +45,63 @@
                         "wType": "Image"
                     },
                     "srcWgtKUID": "c326eb0c86eb4d0284acc63852c57874"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aff574777b844d62a91ca774204710d6",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "username",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "user name",
+                        "srcWidget": "lblUserUserName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bcdddd9bc4f943909e865faf78b03805"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fb7c4fe9157a4e959708791ed093014e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "name",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "user username",
+                        "srcWidget": "lblUserName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "acb37aa5887146a683b894cc2306054f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b354c531acbf40f791ab349c699b72bd",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "post",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "user post",
+                        "srcWidget": "rtPost",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "eac9d8473c644d519c6a8b08d87554a8"
                 }
             ]
         },
