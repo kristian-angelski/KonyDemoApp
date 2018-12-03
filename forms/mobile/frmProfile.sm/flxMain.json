@@ -36,7 +36,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxImages"
+        "flxImages",
+        "flxUserInfo",
+        "flxPosts"
     ],
     "clipbounds": true,
     "containerweight": 100,

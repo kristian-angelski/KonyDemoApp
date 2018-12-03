@@ -38,6 +38,7 @@
     "context": {
         "channel": "mobile",
         "formID": "frmProfile",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
