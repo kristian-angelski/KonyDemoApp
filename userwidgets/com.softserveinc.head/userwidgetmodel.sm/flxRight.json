@@ -37,6 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "btnSignUp",
+        "lblElipsis",
         "btnEdit"
     ],
     "clipbounds": true,
