@@ -35,7 +35,10 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "flxCreateProfile",
+        "Button0de6de2b9b23e40"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,

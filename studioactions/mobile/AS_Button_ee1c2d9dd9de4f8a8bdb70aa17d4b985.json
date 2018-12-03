@@ -1,0 +1,28 @@
+{
+    "AS_Button_ee1c2d9dd9de4f8a8bdb70aa17d4b985": {
+        "id": "AS_Button_ee1c2d9dd9de4f8a8bdb70aa17d4b985",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSignUp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2375c33c58842e7a9068d396bb52c1a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___df9d2435b3b04e14b92584b25ab4b943",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Validate",
+            "display": "Validate",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
