@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s0ea231fee464bc5aa4b91ff9a4c321a",
-    "_text_": "Phone number,email address, or username",
+    "_text_": "Phone number, email address,  or username",
     "_top_": {
         "type": "string",
         "value": "3dp"
