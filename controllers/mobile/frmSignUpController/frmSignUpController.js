@@ -28,4 +28,8 @@ define({
       this.view.txtUserName.skin = "defTextBoxNormal";
       this.view.txtPass.skin = "defTextBoxNormal";
     }
+    blueLine: function() {
+      
+    }
+      
   }});
