@@ -1,0 +1,58 @@
+{
+    "classname": "post",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b7459f4051b6458086642c0f2eac0094",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "user img src",
+                        "srcWidget": "imgUser",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c326eb0c86eb4d0284acc63852c57874"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.softserveinc",
+    "version": "1.0.0"
+}
