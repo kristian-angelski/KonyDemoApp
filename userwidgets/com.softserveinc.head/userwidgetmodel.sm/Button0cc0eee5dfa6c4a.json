@@ -3,8 +3,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "154dp"
     },
     "_margin_": [
         6,
@@ -18,32 +22,28 @@
         0,
         0
     ],
-    "_skin_": "saf5d74962a247979436fb4c22d5b876",
-    "_text_": "Sign up",
+    "_skin_": "sa181c171b8a4e8bb46f09c4d40e659b",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "233dp"
+    },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "300dp"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "saf5d74962a247979436fb4c22d5b876",
-    "id": "btnSignUp",
+    "focusskin": "sb147e3d995f43c0843322331d57457e",
+    "id": "Button0cc0eee5dfa6c4a",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ie69a226c10b458ea05237ae2e99dbe3",
+    "kuid": "f87a55479d4147a18f8966fe189e0fe2",
     "name": "kony.ui.Button",
-    "parent": "flxRight",
+    "parent": "head",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
