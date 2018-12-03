@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "258dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -38,7 +38,8 @@
     "children": [
         "lblCreateProfile",
         "flxUserName",
-        "flxPass"
+        "flxPass",
+        "btnLogin"
     ],
     "clipbounds": true,
     "containerweight": 100,

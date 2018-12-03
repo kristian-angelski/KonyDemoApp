@@ -36,8 +36,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxCreateProfile",
-        "Button0de6de2b9b23e40"
+        "flxCreateProfile"
     ],
     "clipbounds": true,
     "containerweight": 100,
