@@ -1,0 +1,166 @@
+{
+    "classname": "head",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ec954802219e4b0b8828ca64fc7e5198",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "isVisible1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show THUMBNAIL IMG",
+                        "srcWidget": "flxImage",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ce17db721f184aa18a96209142233bad"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j260b2d8691f45c2b71598854cc2d483",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 2,
+                    "propertyKey": "isVisible2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show BACK BTN",
+                        "srcWidget": "btnBack",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "c97b2461161c4720a39cd6b30d1026c3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ebb3b59b7d1f409f97b46d35454d69c4",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "isVisible3",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show LOGO IMG",
+                        "srcWidget": "lblLogo",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j0054b89844e481bb5a5ee7764c0bc62"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f2e346f6dadc46ba96316de1ff4a4ae5",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "isVisible4",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show HOME LBL",
+                        "srcWidget": "lblHome",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f0ee6039e277459d9f724bdd1f4740e2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hf4940901b674cd28478fc4cc8e4b031",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "isVisible5",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show TWEET LBL",
+                        "srcWidget": "lblTweet",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ece68fbf9f234767b6d7cf55ac8b1de5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b126b738c8814a68a17af3e0f43555a6",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 6,
+                    "propertyKey": "isVisible6",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show SIGN UP BTN",
+                        "srcWidget": "btnSignUp",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ie69a226c10b458ea05237ae2e99dbe3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cfa30f209d9345858b743d66df933199",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 7,
+                    "propertyKey": "isVisible7",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show EDIT BTN",
+                        "srcWidget": "btnEdit",
+                        "toolTip": "Hides/shows the widget in the screen",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "dd5be46346a041b3bc28a7c0b1d187aa"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.softserveinc",
+    "version": "1.0.0"
+}
