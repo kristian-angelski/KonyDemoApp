@@ -37,8 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "flxHeader",
-        "flxHR",
-        "Button0cc0eee5dfa6c4a"
+        "flxHR"
     ],
     "clipbounds": true,
     "containerweight": 100,
