@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "154dp"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -22,28 +22,28 @@
         0,
         0
     ],
-    "_skin_": "sa181c171b8a4e8bb46f09c4d40e659b",
-    "_text_": "Button",
+    "_skin_": "sc0c37aac654432d97cff665fd0ab8aa",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "233dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "25%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sb147e3d995f43c0843322331d57457e",
-    "id": "Button0cc0eee5dfa6c4a",
+    "focusskin": "sc0c37aac654432d97cff665fd0ab8aa",
+    "id": "btnLike",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f87a55479d4147a18f8966fe189e0fe2",
+    "kuid": "a0f5f9046706438d83783a103d4ef2f2",
     "name": "kony.ui.Button",
-    "parent": "head",
+    "parent": "flxBtns",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
