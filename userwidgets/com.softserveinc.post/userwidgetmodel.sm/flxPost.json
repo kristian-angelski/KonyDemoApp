@@ -36,7 +36,6 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "flxUpperHR",
         "flxUser",
         "flxMsg",
         "flxBottomHR"

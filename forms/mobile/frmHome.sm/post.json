@@ -44,7 +44,7 @@
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMain",
+    "parent": "flxHomePosts",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
