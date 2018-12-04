@@ -2,6 +2,19 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
+    /** onBeginEditing defined for txtUserName **/
+    AS_TextField_ef9a5d08553249f289c5573ce9f91f07: function AS_TextField_ef9a5d08553249f289c5573ce9f91f07(eventobject, changedtext) {
+        var self = this;
+        if (kony.theme.getCurrentTheme() != "default") {
+            kony.theme.setCurrentTheme("default", function() {
+                self.view.lineName.skin = "blueSkin";
+            }, null);
+        } else {
+            (function() {
+                self.view.lineName.skin = "blueSkin";
+            })();
+        }
+    },
     /** onEndEditing defined for txtUserName **/
     AS_TextField_j20e6deb8fed4378bf03ad1bf3f4c1f0: function AS_TextField_j20e6deb8fed4378bf03ad1bf3f4c1f0(eventobject, changedtext) {
         var self = this;
@@ -90,19 +103,6 @@ define({
         } else {
             (function() {
                 self.view.linePass.skin = "sknHorizontalLine";
-            })();
-        }
-    },
-    /** onBeginEditing defined for txtUserName **/
-    AS_TextField_ef9a5d08553249f289c5573ce9f91f07: function AS_TextField_ef9a5d08553249f289c5573ce9f91f07(eventobject, changedtext) {
-        var self = this;
-        if (kony.theme.getCurrentTheme() != "default") {
-            kony.theme.setCurrentTheme("default", function() {
-                self.view.lineName.skin = "blueSkin";
-            }, null);
-        } else {
-            (function() {
-                self.view.lineName.skin = "blueSkin";
             })();
         }
     }

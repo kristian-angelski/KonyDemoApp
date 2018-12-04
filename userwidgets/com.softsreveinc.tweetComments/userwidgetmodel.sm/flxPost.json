@@ -1,15 +1,13 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_children_": [],
     "_height_": {
         "type": "ref",
         "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "9.99%"
     },
     "_margin_": [
         0,
@@ -17,7 +15,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -25,46 +23,42 @@
         0
     ],
     "_percent_": true,
-    "_render_": true,
     "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "183dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
+    "allboxes": [],
     "autogrowmode": 1,
     "canUpdateUI": true,
+    "children": [
+        "flxUpperHR",
+        "flxUserInfo",
+        "flxReplyTo",
+        "flxMsg",
+        "flxBottomHR"
+    ],
     "clipbounds": true,
-    "containerweight": 0,
-    "data": {
-        "isVisible1": false,
-        "isVisible2": false,
-        "isVisible3": true,
-        "isVisible4": false,
-        "isVisible5": false,
-        "isVisible6": true,
-        "isVisible7": false,
-        "text": "Forward"
-    },
+    "containerweight": 100,
     "enablescrolling": true,
-    "id": "head",
+    "id": "flxPost",
     "info": null,
     "iscustomlayout": false,
-    "issegmentchild": false,
     "isvisible": true,
-    "kuid": "d75579a3d1e8453f80e2d55ab2945cd5",
+    "kuid": "g103dcb3bc3545efb98b79c9ef1c0714",
     "layouttype": 4,
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMain",
-    "pf": "frmSignUp",
+    "name": "kony.ui.FlexContainer",
+    "parent": "tweetComments",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "sourceUserWidget": "d1f73e323d1042d48997554f912d787e",
-    "wType": "UserWidgetInstance"
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
 }
