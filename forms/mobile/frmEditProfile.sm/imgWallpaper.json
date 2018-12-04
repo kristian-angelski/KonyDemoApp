@@ -1,9 +1,11 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "220dp"
+        "value": "70%"
     },
     "_left_": {
         "type": "string",
@@ -15,15 +17,14 @@
         0,
         0
     ],
-    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_percent_": true,
-    "_skin_": "s00dbb437461480ba99f53cce0819ae7",
+    "_skin_": "s1d27d3dcbc84c0a9a148fc1cbd71c03",
+    "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -32,30 +33,28 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
     "canUpdateUI": true,
-    "children": [
-        "imgWallpaper",
-        "flxProfilePhoto",
-        "flxbuttons"
-    ],
-    "clipbounds": true,
     "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxImages",
+    "context": {
+        "channel": "mobile",
+        "formID": "frmEditProfile",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgWallpaper",
+    "imagescalemode": 0,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f7a1205324134f03aa602afc4cf03702",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxMain",
-    "pf": "frmProfile",
+    "kuid": "b43e7ebaf0c24f1d95f9ce7ff9e550b3",
+    "name": "kony.ui.Image2",
+    "parent": "flxImages",
+    "pf": "frmEditProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
     "zindex": 1
 }

@@ -1,23 +1,23 @@
 {
-    "AS_Button_i22ef2f8eb4a4e139472820dd6a79f24": {
-        "id": "AS_Button_i22ef2f8eb4a4e139472820dd6a79f24",
+    "AS_FlexContainer_dba8d9aeada4474ebc9877b9191b8bca": {
+        "id": "AS_FlexContainer_dba8d9aeada4474ebc9877b9191b8bca",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmLogin",
+            "name": "frmEditProfile",
             "type": "forms",
             "platform": "",
-            "KUID": "b7bce20c862840659d421315a8fd7755"
+            "KUID": "b00ea3a139934513812e8ca22b551a06"
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___id137b097594493caf55b9f5b52ed79e",
+            "id": "INVOKE_FUNCTION___f3f7ca065f224f12966ad15dddf34a42",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "validate",
-            "display": "validate",
+            "sequenceKUID": "changeName",
+            "display": "changeName",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

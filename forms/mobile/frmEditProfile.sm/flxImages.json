@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "220dp"
     },
     "_left_": {
         "type": "string",
@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd6fe24037ae4f5b91b496943f070949",
+    "_skin_": "s00dbb437461480ba99f53cce0819ae7",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -33,40 +33,30 @@
         "value": "100%"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "flxImages",
-        "flxUserInfo",
-        "flxEditingName"
+        "flxProfilePhoto",
+        "imgWallpaper",
+        "camWallpaper",
+        "flxbuttons"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "flxMain",
+    "id": "flxImages",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i7756cbfeb2c408bb1f927ed175cb650",
-    "layouttype": 4,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
-    "parent": "frmEditProfile",
+    "kuid": "i8930d91d7f54b25bbe672ba5d1303ce",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxMain",
     "pf": "frmEditProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "vizProps": {},
-    "wType": "FlexScrollContainer",
+    "wType": "FlexContainer",
     "widgetalignment": 1,
     "zindex": 1
 }

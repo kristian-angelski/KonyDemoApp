@@ -19,15 +19,15 @@
         0
     ],
     "_placeholder_": "",
-    "_skin_": "s14e27e6f09348a39b1b45a5c10e07a2",
+    "_skin_": "sf6f8dc32bfb4c80b17556b914fe81f3",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "autocapitalize": "none",
     "autocomplete": false,
@@ -42,21 +42,21 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "focusskin": "sd874a2c199342b98396bd78adcf9c15",
-    "id": "txtPassword",
+    "focusskin": "s60bd25b7a314404ad97427960edcdca",
+    "id": "txtNameChange",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "d373dbb88b6b4346a8a4e6be4847e924",
+    "kuid": "d0ad814b24654614aceebc6946ef446f",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "flxPassword",
-    "pf": "frmLogin",
-    "placeholderskin": "s18287e037d0485d80e0c6b93da0d2b2",
+    "parent": "flxEditingName",
+    "pf": "frmEditProfile",
+    "placeholderskin": "s0dac2f57bc44c26bb15114cbc4aad47",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "securetextentry": true,
+    "securetextentry": false,
     "textinputmode": "A",
     "tooltip": "",
     "viewtype": "default",

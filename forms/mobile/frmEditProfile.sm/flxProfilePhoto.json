@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "100dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_margin_": [
         0,
@@ -23,50 +23,40 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd6fe24037ae4f5b91b496943f070949",
+    "_skin_": "s5c80ca20d72486481e26958db045ce4",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "100dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "100dp"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxImages",
-        "flxUserInfo",
-        "flxEditingName"
+        "imgProfilePhoto",
+        "camProfilePhoto"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "flxMain",
+    "id": "flxProfilePhoto",
+    "ide_onClick": "AS_FlexContainer_abe04827e53740098f6bd6281d28e9df",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i7756cbfeb2c408bb1f927ed175cb650",
-    "layouttype": 4,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
-    "parent": "frmEditProfile",
+    "kuid": "d10def93fef34e69a899150552f8d884",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxImages",
     "pf": "frmEditProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "vizProps": {},
-    "wType": "FlexScrollContainer",
+    "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 2
 }
