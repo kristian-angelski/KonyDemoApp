@@ -1,0 +1,27 @@
+{
+    "AS_Button_b78eecd314f045c9a380508224a64e72": {
+        "id": "AS_Button_b78eecd314f045c9a380508224a64e72",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwuc61a08647e74990be941cd31c9bd1d8",
+            "type": "userwidgets",
+            "KUID": "uc61a08647e74990be941cd31c9bd1d8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g4b5a7b17d42483e99e4feaab35b8da3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToTweetFrm",
+            "display": "navigateToTweetFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
