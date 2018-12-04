@@ -1,22 +1,22 @@
 {
-    "AS_Button_je956c686c184d1e8b30b74c44a9dfcf": {
-        "id": "AS_Button_je956c686c184d1e8b30b74c44a9dfcf",
+    "AS_FlexContainer_g193a921b22d4f6a92db5e779ea16aa1": {
+        "id": "AS_FlexContainer_g193a921b22d4f6a92db5e779ea16aa1",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "uwuc61a08647e74990be941cd31c9bd1d8",
+            "name": "uwu2ad4d78b239488f8345ac2033af703f",
             "type": "userwidgets",
-            "KUID": "uc61a08647e74990be941cd31c9bd1d8"
+            "KUID": "u2ad4d78b239488f8345ac2033af703f"
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___f2e66fcbd2ea475e8a03a2c3897cae90",
+            "id": "INVOKE_FUNCTION___f527f60bea00459ab210bf5d718de31d",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "navigate",
-            "display": "<>",
+            "sequenceKUID": "navigateToProfileFrm",
+            "display": "navigateToProfileFrm",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

@@ -1,6 +1,6 @@
 {
-    "AS_Button_je956c686c184d1e8b30b74c44a9dfcf": {
-        "id": "AS_Button_je956c686c184d1e8b30b74c44a9dfcf",
+    "AS_FlexContainer_d2d2381cc1dd4e2eb4076719d64de495": {
+        "id": "AS_FlexContainer_d2d2381cc1dd4e2eb4076719d64de495",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -13,10 +13,10 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___f2e66fcbd2ea475e8a03a2c3897cae90",
+            "id": "INVOKE_FUNCTION___cc4753532f5b417caa7e3e65a96f3081",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "navigate",
-            "display": "<>",
+            "sequenceKUID": "navigateToProfileFrm",
+            "display": "navigateToProfileFrm",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

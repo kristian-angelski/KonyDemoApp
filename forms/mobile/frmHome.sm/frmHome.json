@@ -30,8 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "flxMain",
-        "head"
+        "head",
+        "flxMain"
     ],
     "containerweight": 100,
     "controllerInfo": {

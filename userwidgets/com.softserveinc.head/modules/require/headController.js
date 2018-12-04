@@ -9,9 +9,14 @@ define(function() {
 
 		},
 		
-		navigate() {
+		navigateToTweetFrm() {
 			let tweetFrm = new kony.mvc.Navigation('frmTweet');
 			tweetFrm.navigate();
+		},
+		
+		navigateToProfileFrm() {
+			let profileFrm = new kony.mvc.Navigation('frmProfile');
+			profileFrm.navigate();
 		}
 	};
 });

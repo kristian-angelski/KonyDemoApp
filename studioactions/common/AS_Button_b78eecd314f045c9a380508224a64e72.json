@@ -1,6 +1,6 @@
 {
-    "AS_Button_je956c686c184d1e8b30b74c44a9dfcf": {
-        "id": "AS_Button_je956c686c184d1e8b30b74c44a9dfcf",
+    "AS_Button_b78eecd314f045c9a380508224a64e72": {
+        "id": "AS_Button_b78eecd314f045c9a380508224a64e72",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -13,10 +13,10 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___f2e66fcbd2ea475e8a03a2c3897cae90",
+            "id": "INVOKE_FUNCTION___g4b5a7b17d42483e99e4feaab35b8da3",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "navigate",
-            "display": "<>",
+            "sequenceKUID": "navigateToTweetFrm",
+            "display": "navigateToTweetFrm",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,
