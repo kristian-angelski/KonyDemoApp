@@ -4,7 +4,7 @@ define({
   },
 
   validateForm() {
-    if (!this.validateField(this.view.txtEmail)) {
+    if (!this.validateField(this.view.txtEmail) && !kony.string.isValidEmail(this.view.txtEmail.text)) {
       this.view.flxEmailHr.skin = 'sknLoginFrmInvalid';
     } else {
       this.view.flxEmailHr.skin = 'sknLoginFrmHR';

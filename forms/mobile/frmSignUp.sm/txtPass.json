@@ -23,7 +23,7 @@
         0
     ],
     "_placeholder_": "",
-    "_skin_": "sbf421cfaa9d444a907b6aa79876769b",
+    "_skin_": "s306d54955e8416a9825ac6de7bbd51f",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -46,9 +46,8 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "disabledSkins": {
-        "focusSkin": "s11a0df3d4e646d4936b5fb169bae822"
-    },
+    "disabledSkins": {},
+    "focusskin": "s306d54955e8416a9825ac6de7bbd51f",
     "id": "txtPass",
     "info": null,
     "iphone": {

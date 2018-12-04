@@ -105,5 +105,15 @@ define({
                 self.view.linePass.skin = "sknHorizontalLine";
             })();
         }
+    },
+    /** onClickSign defined for head **/
+    AS_UWI_h94ed0eec90544e5ae72fac9d0fa2a5e: function AS_UWI_h94ed0eec90544e5ae72fac9d0fa2a5e(eventobject) {
+        var self = this;
+        return
+    },
+    /** onClickSign defined for head **/
+    AS_UWI_f699152834314aea94a1a35f014b3c19: function AS_UWI_f699152834314aea94a1a35f014b3c19(eventobject) {
+        var self = this;
+        return self.validate.call(this);
     }
 });
