@@ -18,17 +18,17 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "10dp"
-    },
-    "_skin_": "s1019707d51a41e4bd56bb4d513616b3",
-    "_text_": "",
+    "_skin_": "se7d6b22fac4454cbffee7c0e1c539cf",
+    "_text_": "",
     "_width_": {
         "type": "ref",
         "value": "preferred"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -36,15 +36,16 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s1019707d51a41e4bd56bb4d513616b3",
-    "id": "btnEdit",
+    "focusskin": "se7d6b22fac4454cbffee7c0e1c539cf",
+    "id": "btnClose",
+    "ide_onClick": "AS_Button_i6a2575e4de5481e898d78a041e3b1ab",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dd5be46346a041b3bc28a7c0b1d187aa",
+    "kuid": "hf51ee6037fc41c88751f52c6f3f5006",
     "name": "kony.ui.Button",
-    "parent": "flxRight",
-    "pf": "userwidgetmodel",
+    "parent": "flxClose",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

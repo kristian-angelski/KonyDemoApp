@@ -40,6 +40,7 @@
     "clipbounds": true,
     "containerweight": 0,
     "data": {
+        "ide_onClick": "AS_UWI_d759e0b468704407b51717667bd74006",
         "isVisible1": true,
         "isVisible2": false,
         "isVisible3": false,
@@ -57,7 +58,7 @@
     "layouttype": 4,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "frmHome",
+    "parent": "flxMain",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
