@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sa5ca964431d4b1b9ec78287a4562f27",
+    "_skin_": "s9575908601045bc9690d4bf0690d090",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -38,12 +38,14 @@
     "children": [],
     "clipbounds": true,
     "containerweight": 100,
+    "disabledSkins": {},
     "enablescrolling": true,
-    "id": "blueLinePass",
+    "focusskin": "sa5ca964431d4b1b9ec78287a4562f27",
+    "id": "linePass",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "bf3da11fe0924144b0d275bbf9f0216e",
+    "isvisible": true,
+    "kuid": "b4415c377d71403bad92710b7329a782",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxPass",

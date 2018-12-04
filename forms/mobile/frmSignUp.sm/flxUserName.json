@@ -42,7 +42,7 @@
     "children": [
         "lblUserName",
         "txtUserName",
-        "blueLineName",
+        "lineName",
         "lblInvalidMail"
     ],
     "clipbounds": true,

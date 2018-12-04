@@ -7,10 +7,10 @@
   },
   "background_color": "00000000",
   "bg_type": "one",
-  "border_color": "00000000",
+  "border_color": "000000ff",
   "border_style": "plain",
   "border_type": 0,
-  "border_width": 1,
+  "border_width": 0,
   "desktopweb": {
     "font_name": "Helvetica"
   },
@@ -24,7 +24,7 @@
   "kiosk": {
     "font_name": "None"
   },
-  "kuid": "s4cd02ebaa184137b2ea454f606abc62",
+  "kuid": "s4fddd69023146c0b02ca499f3f41011",
   "spaan": {
     "font_name": "Helvetica"
   },

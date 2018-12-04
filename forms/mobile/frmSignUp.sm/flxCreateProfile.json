@@ -26,7 +26,7 @@
     "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
     "_top_": {
         "type": "string",
-        "value": "140dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
@@ -38,8 +38,7 @@
     "children": [
         "lblCreateProfile",
         "flxUserName",
-        "flxPass",
-        "btnLogin"
+        "flxPass"
     ],
     "clipbounds": true,
     "containerweight": 100,

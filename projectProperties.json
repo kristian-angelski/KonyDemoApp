@@ -35,10 +35,10 @@
     "defaulttheme": "defaultTheme",
     "cloud_account_guid": "990b7119-9591-4481-a42a-75650efa137e",
     "nativeContainerProperties": {
-        "isModified": true,
-        "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
-        "isEnableJSContaineriOS": true
+        "isModified": true,
+        "isEnableJSContaineriOS": true,
+        "isEnableJSContainer": true
     },
     "appmenu": {
         "tablet": {
@@ -199,11 +199,11 @@
     "accountCloudGuid": "990b7119-9591-4481-a42a-75650efa137e",
     "projectCloudGuid": "0e608df9-a9ff-4083-907d-aeb53a7bcdb0",
     "prototype": {
-        "createdOn": "2018-12-03T11:59:36.307Z",
-        "createdById": "b472349c-ea60-49dc-9001-d9bb693a595a",
+        "PublishMode": "public",
+        "resourceId": "429b4fb4-dd89-4070-b322-83fed51e2f8a",
         "createdBy": "Mihail Zhelev",
         "shareGuid": "ND6EJ",
-        "resourceId": "429b4fb4-dd89-4070-b322-83fed51e2f8a",
-        "PublishMode": "public"
+        "createdOn": "2018-12-03T11:59:36.307Z",
+        "createdById": "b472349c-ea60-49dc-9001-d9bb693a595a"
     }
 }

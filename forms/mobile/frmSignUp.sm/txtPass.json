@@ -23,7 +23,7 @@
         0
     ],
     "_placeholder_": "",
-    "_skin_": "s05937bd7ee245c6a6488726be8bbab1",
+    "_skin_": "sbf421cfaa9d444a907b6aa79876769b",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -32,6 +32,10 @@
     "_width_": {
         "type": "string",
         "value": "100%"
+    },
+    "android": {
+        "ide_onBeginEditing": "AS_TextField_f35c94d06ca34275aef94cc16fffc5b8",
+        "ide_onEndEditing": "AS_TextField_a0623898a7094b80849d20b24163ef30"
     },
     "autocapitalize": "none",
     "autocomplete": false,
@@ -42,9 +46,15 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "focusskin": "s11a0df3d4e646d4936b5fb169bae822",
+    "disabledSkins": {
+        "focusSkin": "s11a0df3d4e646d4936b5fb169bae822"
+    },
     "id": "txtPass",
     "info": null,
+    "iphone": {
+        "ide_onBeginEditing": "AS_TextField_d30fd868e82549ca8c104cf52a71e70b",
+        "ide_onEndEditing": "AS_TextField_e7c354887d804357a64089e483dcccf7"
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",

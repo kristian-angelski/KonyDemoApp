@@ -15,13 +15,13 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s3cd2c457aa64d0ebc5f027e923c92f4",
+    "_skin_": "sd71c78eeaf947ebbdb93b3354ccb415",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "head"
+        "home"
     ],
     "containerweight": 100,
     "currentLocale": "default",
@@ -37,7 +37,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "uc61a08647e74990be941cd31c9bd1d8",
+    "kuid": "ube9d0c7efe748cab87d1a6404391ce9",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.Form2",
@@ -47,8 +47,8 @@
     },
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "GalaxyS8",
-    "prevPlatform": "android",
+    "prevDevice": "iPhoneX",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

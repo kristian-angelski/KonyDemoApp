@@ -1,9 +1,11 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_children_": [],
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -15,7 +17,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -23,36 +25,45 @@
         0
     ],
     "_percent_": true,
+    "_render_": true,
     "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
     "_top_": {
         "type": "string",
-        "value": "3dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
-    "children": [],
     "clipbounds": true,
-    "containerweight": 100,
+    "containerweight": 0,
+    "data": {
+        "isVisible1": false,
+        "isVisible2": false,
+        "isVisible3": true,
+        "isVisible4": false,
+        "isVisible5": false,
+        "isVisible6": true,
+        "isVisible7": false
+    },
     "enablescrolling": true,
-    "id": "flxMain",
+    "id": "head",
     "info": null,
     "iscustomlayout": false,
+    "issegmentchild": false,
     "isvisible": true,
-    "kuid": "bd218bc6c1744478b6a682781090c91f",
+    "kuid": "d75579a3d1e8453f80e2d55ab2945cd5",
     "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
-    "parent": "frmHome",
-    "pf": "frmHome",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmSignUp",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "sourceUserWidget": "d1f73e323d1042d48997554f912d787e",
+    "wType": "UserWidgetInstance"
 }

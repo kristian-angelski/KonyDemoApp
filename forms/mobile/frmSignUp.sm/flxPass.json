@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100dp"
+        "value": "95dp"
     },
     "_left_": {
         "type": "string",
@@ -42,8 +42,8 @@
     "children": [
         "lblPass",
         "txtPass",
-        "lblInvalidPass",
-        "blueLinePass"
+        "linePass",
+        "lblInvalidPass"
     ],
     "clipbounds": true,
     "containerweight": 100,

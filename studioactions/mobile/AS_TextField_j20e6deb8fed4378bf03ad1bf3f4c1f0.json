@@ -1,0 +1,39 @@
+{
+    "AS_TextField_j20e6deb8fed4378bf03ad1bf3f4c1f0": {
+        "id": "AS_TextField_j20e6deb8fed4378bf03ad1bf3f4c1f0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmSignUp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2375c33c58842e7a9068d396bb52c1a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____gdc80bfceb1e4fa68e05c1a88003b185",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmSignUp",
+            "widgetId": "lineName",
+            "propertyName": "skin",
+            "propertyValue": "sknHorizontalLine",
+            "itemKUID": "c2375c33c58842e7a9068d396bb52c1a",
+            "widgetKUID": "e5bc10ba35ee420bb3a08c6c216acb0e",
+            "skinKUID": "s9575908601045bc9690d4bf0690d090",
+            "isSkinProperty": true,
+            "wType": "FlexContainer",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.lineName"
+        }]
+    }
+}
