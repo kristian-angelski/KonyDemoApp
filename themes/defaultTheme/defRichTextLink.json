@@ -7,16 +7,16 @@
   },
   "background_color": "00000000",
   "bg_type": "one",
-  "border_color": "000000ff",
+  "border_color": "424242ff",
   "border_style": "plain",
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
     "font_name": "Helvetica"
   },
-  "font_color": "000000ff",
+  "font_color": "4b88f1ff",
   "font_name": "Helvetica",
-  "font_size": 156,
+  "font_size": 150,
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
@@ -29,7 +29,7 @@
   "kiosk": {
     "font_name": "None"
   },
-  "kuid": "s1d27d3dcbc84c0a9a148fc1cbd71c03",
+  "kuid": "s4b76b37361c403c8817c1883bbec06e",
   "spaan": {
     "font_name": "Helvetica"
   },
@@ -54,7 +54,7 @@
   "tabrcandroid": {
     "font_name": "default"
   },
-  "wType": "Image",
+  "wType": "RichText",
   "watchos": {
     "font_name": "System"
   },

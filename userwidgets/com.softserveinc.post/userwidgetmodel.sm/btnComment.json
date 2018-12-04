@@ -1,4 +1,5 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
@@ -10,53 +11,42 @@
         "value": "0dp"
     },
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        6,
+        6,
+        6,
+        6
     ],
-    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_percent_": true,
-    "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
+    "_skin_": "sc0c37aac654432d97cff665fd0ab8aa",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "25%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "flxImages",
-        "flxUserInfo",
-        "flxPosts"
-    ],
-    "clipbounds": true,
     "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxMain",
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sc0c37aac654432d97cff665fd0ab8aa",
+    "id": "btnComment",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c0e4adb16b4a40089a105a3edc9c2b9e",
-    "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
-    "parent": "frmProfile",
-    "pf": "frmProfile",
+    "kuid": "b484751116034123a29f25eed8771743",
+    "name": "kony.ui.Button",
+    "parent": "flxBtns",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "wType": "Button",
     "zindex": 1
 }

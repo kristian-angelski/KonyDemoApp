@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "30%"
     },
     "_left_": {
         "type": "string",
@@ -36,25 +36,23 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "head",
-        "flxLoginHeading",
-        "flxEmail",
-        "flxPassword",
-        "flxForgottenPassword",
-        "flxFooter"
+        "btnComment",
+        "btnShare",
+        "btnLike",
+        "btnMsg"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxMain",
+    "id": "flxBtns",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dd8312974f654544afbaecb56d07d307",
-    "layouttype": 4,
+    "kuid": "a6790bb489f8442a9c91aec1150d8955",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmLogin",
-    "pf": "frmLogin",
+    "parent": "flxMsg",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
