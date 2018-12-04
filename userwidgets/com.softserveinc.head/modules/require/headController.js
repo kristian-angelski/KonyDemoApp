@@ -7,6 +7,11 @@ define(function() {
 		//Logic for getters/setters of custom properties
 		initGettersSetters: function() {
 
+		},
+		
+		navigate() {
+			let tweetFrm = new kony.mvc.Navigation('frmTweet');
+			tweetFrm.navigate();
 		}
 	};
 });

@@ -38,6 +38,7 @@
     "displaytext": true,
     "focusskin": "s1019707d51a41e4bd56bb4d513616b3",
     "id": "btnEdit",
+    "ide_onClick": "AS_Button_je956c686c184d1e8b30b74c44a9dfcf",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
