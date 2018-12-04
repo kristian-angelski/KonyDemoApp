@@ -1,0 +1,21 @@
+{
+    "AS_Button_dadf627a16c345329db08bc8f1058d96": {
+        "id": "AS_Button_dadf627a16c345329db08bc8f1058d96",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c3f35a792d7e4f9b96b99e7570443e61",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "Validate",
+            "display": "Validate",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

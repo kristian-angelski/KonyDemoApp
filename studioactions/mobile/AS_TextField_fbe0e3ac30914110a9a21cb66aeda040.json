@@ -1,0 +1,34 @@
+{
+    "AS_TextField_fbe0e3ac30914110a9a21cb66aeda040": {
+        "id": "AS_TextField_fbe0e3ac30914110a9a21cb66aeda040",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSignUp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c2375c33c58842e7a9068d396bb52c1a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g8425986231948aea65211e4909c3b52",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "blueLineName",
+            "display": "blueLineName",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
