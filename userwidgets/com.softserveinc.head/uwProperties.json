@@ -153,6 +153,25 @@
                         "wType": "Button"
                     },
                     "srcWgtKUID": "dd5be46346a041b3bc28a7c0b1d187aa"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fe47c4da77c14a8484ed405595e0065b",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 8,
+                    "propertyKey": "isVisible1099918048",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show HR LINE",
+                        "srcWidget": "flxHR",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f4b41c9514164964b019f5e83152f360"
                 }
             ]
         },

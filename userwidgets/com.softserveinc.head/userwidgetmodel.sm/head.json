@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
@@ -33,12 +33,11 @@
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
         "flxHeader",
-        "flxHR",
-        "Button0cc0eee5dfa6c4a"
+        "flxHR"
     ],
     "clipbounds": true,
     "containerweight": 100,
