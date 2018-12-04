@@ -1,15 +1,13 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_children_": [],
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_margin_": [
         0,
@@ -17,7 +15,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -26,30 +24,39 @@
     ],
     "_percent_": true,
     "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "210dp"
     },
-    "autogrowmode": 1,
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "flxOne",
+        "flxTwo",
+        "flxThree"
+    ],
     "clipbounds": true,
-    "containerweight": 0,
-    "data": {},
+    "containerweight": 100,
     "enablescrolling": true,
-    "id": "post",
+    "id": "flxItems",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ecf2b268dfa9486eaa17fc5cede18d3b",
-    "layouttype": 2,
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMain",
+    "kuid": "df9a96552622439caa66c7022f73bfeb",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBottom",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "sourceUserWidget": "ia4cf114041d4c4fafd6530afe6fd98d",
-    "wType": "UserWidgetInstance"
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
 }

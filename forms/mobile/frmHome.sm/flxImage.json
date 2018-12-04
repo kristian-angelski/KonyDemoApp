@@ -3,11 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "60dp"
     },
     "_margin_": [
         0,
@@ -23,33 +19,40 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_skin_": "safec57d055c49de848ee708b2087f14",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "60dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "head",
-        "post"
+        "imgUser"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxMain",
+    "id": "flxImage",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bd218bc6c1744478b6a682781090c91f",
-    "layouttype": 4,
+    "kuid": "bd5aa0e5ad0b4274a79a771f0d4dd9f1",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmHome",
+    "parent": "flxUpper",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

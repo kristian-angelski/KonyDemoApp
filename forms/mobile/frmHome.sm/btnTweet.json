@@ -3,8 +3,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "50dp"
     },
     "_margin_": [
         6,
@@ -20,13 +20,17 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
-    "_skin_": "s1019707d51a41e4bd56bb4d513616b3",
-    "_text_": "",
+    "_skin_": "s793157a83bc44fea8ef62b306a497f4",
+    "_text_": "Tweet",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100dp"
     },
     "canUpdateUI": true,
     "centery": {
@@ -36,15 +40,16 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s1019707d51a41e4bd56bb4d513616b3",
-    "id": "btnEdit",
+    "focusskin": "s7f5fc3806374333aba01bf589040e88",
+    "id": "btnTweet",
+    "ide_onClick": "AS_Button_gdb30ce584ef47efb6ee37fd76058f9f",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dd5be46346a041b3bc28a7c0b1d187aa",
+    "kuid": "a39221b93f664be6a8e2fddc70b4854e",
     "name": "kony.ui.Button",
-    "parent": "flxRight",
-    "pf": "userwidgetmodel",
+    "parent": "flxBottom",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

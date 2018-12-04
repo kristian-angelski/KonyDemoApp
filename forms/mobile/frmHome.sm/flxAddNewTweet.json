@@ -1,11 +1,9 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "63dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -17,7 +15,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -25,7 +23,6 @@
         0
     ],
     "_percent_": true,
-    "_render_": true,
     "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
     "_top_": {
         "type": "string",
@@ -35,36 +32,31 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 1,
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "flxUpper",
+        "flxContent",
+        "flxBottom"
+    ],
     "clipbounds": true,
-    "containerweight": 0,
-    "data": {
-        "isVisible1": false,
-        "isVisible1099918048": true,
-        "isVisible2": false,
-        "isVisible3": true,
-        "isVisible4": false,
-        "isVisible5": false,
-        "isVisible6": true,
-        "isVisible7": false
-    },
+    "containerweight": 100,
     "enablescrolling": true,
-    "id": "head",
+    "id": "flxAddNewTweet",
     "info": null,
     "iscustomlayout": false,
-    "issegmentchild": false,
-    "isvisible": true,
-    "kuid": "e6e19bb4f61f4397b6a532bb2a1db18c",
+    "isvisible": false,
+    "kuid": "h5905d7e0262451fbac091597b88ca75",
     "layouttype": 4,
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMain",
-    "pf": "frmLogin",
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmHome",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "sourceUserWidget": "d1f73e323d1042d48997554f912d787e",
-    "wType": "UserWidgetInstance"
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
 }
