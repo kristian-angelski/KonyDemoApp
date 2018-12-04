@@ -22,9 +22,9 @@
         2,
         2
     ],
-    "_placeholder_": "What's happening?",
+    "_placeholder_": "",
     "_skin_": "saad94fa9bc243eb9c6bf9dc972995bc",
-    "_text_": "",
+    "_text_": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -44,24 +44,19 @@
     "containerweight": 100,
     "contentalignment": 1,
     "focusskin": "saad94fa9bc243eb9c6bf9dc972995bc",
-    "id": "areaTweet",
+    "id": "areaPost",
     "info": null,
-    "iphone": {
-        "psp": {
-            "placeholderSkin": "sc6775a7eba24e14b196e4f8aecf0a77"
-        }
-    },
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardstyle": "A",
     "keyboardtype": "A",
-    "kuid": "c293209ca1ae4707b49cc8d81a71e231",
+    "kuid": "a39659ccf531418d8030f1f4c8d7848a",
     "mode": "A",
     "name": "kony.ui.TextArea2",
     "numberofvisiblelines": 3,
-    "parent": "flxText",
-    "pf": "frmHome",
-    "placeholderskin": "sc6775a7eba24e14b196e4f8aecf0a77",
+    "parent": "flxTxt",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "saf55239a332461b8c2a460e5fd7c64f",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

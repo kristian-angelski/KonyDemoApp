@@ -23,39 +23,43 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "sd6fe24037ae4f5b91b496943f070949",
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "head",
-        "flxHomePosts"
+        "post"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "flxMain",
+    "horizontalscrollindicator": true,
+    "id": "flxHomePosts",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bd218bc6c1744478b6a682781090c91f",
+    "kuid": "bde234edf971490c98382a3a7adc209c",
     "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
-    "parent": "frmHome",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "flxMain",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "track": false,
+    "verticalscrollindicator": true,
+    "vizProps": {},
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1
 }

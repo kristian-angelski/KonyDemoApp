@@ -41,13 +41,13 @@
     "containerweight": 0,
     "data": {
         "isVisible1": false,
-        "isVisible1099918048": true,
         "isVisible2": true,
         "isVisible3": false,
         "isVisible4": false,
         "isVisible5": true,
         "isVisible6": false,
-        "isVisible7": false
+        "isVisible7": false,
+        "isVisible8": true
     },
     "enablescrolling": true,
     "id": "head",

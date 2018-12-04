@@ -1,13 +1,17 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "60dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "1dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,11 +27,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "s9575908601045bc9690d4bf0690d090",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -35,17 +35,15 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "lblLoginHeading"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxLoginHeading",
+    "id": "flxHorizontalLine",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c3b2e806483b4284a8d95dfca9ebc082",
+    "kuid": "h5dbb2c4f9384b60bb64c581e6612bae",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxMain",

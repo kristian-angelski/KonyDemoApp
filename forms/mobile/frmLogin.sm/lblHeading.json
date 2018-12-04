@@ -22,8 +22,8 @@
         0,
         0
     ],
-    "_skin_": "s979984073c54d6bb599ff2375e971e9",
-    "_text_": "Email required",
+    "_skin_": "se20996e2c6d4de0ad5c8d4a5c75bf26",
+    "_text_": "Login to Twitter",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblRequiredEmail",
+    "id": "lblHeading",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "b5669e8404e341f5b482b7bda46d3e2f",
+    "isvisible": true,
+    "kuid": "h411eb79be794936a12c7124f57a61cf",
     "name": "kony.ui.Label",
-    "parent": "flxEmail",
+    "parent": "flxHeading",
     "pf": "frmLogin",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

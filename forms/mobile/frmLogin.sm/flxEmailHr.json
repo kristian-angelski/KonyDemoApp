@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s9575908601045bc9690d4bf0690d090",
+    "_skin_": "s28fbd4e7c9449bd98f0d80bd8c388eb",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -39,15 +39,15 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxUpperHR",
+    "id": "flxEmailHr",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "je6d7220478b4fe7a6a9f63cae95b82e",
+    "kuid": "ae637c06ebd34cf697a24b83c74c2c3e",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxPost",
-    "pf": "userwidgetmodel",
+    "parent": "flxEmail",
+    "pf": "frmLogin",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,

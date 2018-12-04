@@ -1,31 +1,40 @@
 define({ 
+  validateField(field) {
+    return field.text !== null && field.text !== '';
+  },
 
-  validate: function() {
-    var mail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
-    if (this.view.txtUsernameMailNumber.text === null) {
-      this.view.txtUsernameMailNumber.text = '';
+  validateForm() {
+    if (!this.validateField(this.view.txtEmail) && !kony.string.isValidEmail(this.view.txtEmail.text)) {
+      this.view.flxEmailHr.skin = 'sknLoginFrmInvalid';
+    } else {
+      this.view.flxEmailHr.skin = 'sknLoginFrmHR';
     }
 
-    if (this.view.txtPassword.text === null) {
-      this.view.txtPassword.text = '';
+    if (!this.validateField(this.view.txtPassword)) {
+      this.view.flxPasswordHr.skin = 'sknLoginFrmInvalid';
+    } else {
+      this.view.flxPasswordHr.skin = 'sknLoginFrmHR';
     }
 
-    if (this.view.txtUsernameMailNumber.text.length < 1) {
-      this.view.lblRequiredEmail.isVisible = true;
+    if ( this.validateField(this.view.txtEmail) && this.validateField(this.view.txtPassword) ) {
+      if (kony.string.isValidEmail(this.view.txtEmail.text)) {
+        this.logIn();
+      } else {
+        this.view.flxEmailHr.skin = 'sknLoginFrmInvalid';
+      }
     }
+  },
 
-    if (this.view.txtPassword.text.length < 1) {
-      this.view.lblRequiredPassword.isVisible = true;
-    }
+  logIn() {
+    let nav = new kony.mvc.Navigation('frmHome');
+    nav.navigate();
+  },
 
-    if (this.view.txtUsernameMailNumber.text.match(mail) && this.view.txtPassword.text.length > 0) {
-      var ntf = new kony.mvc.Navigation("frmProfile");
-      ntf.navigate();
-      this.view.txtUsernameMailNumber.text = '';
-      this.view.txtPassword.text = '';
-      this.view.lblRequiredEmail.isVisible = false;
-      this.view.lblRequiredPassword.isVisible = false;
-    }
+  signUp() {
+    let nav = new kony.mvc.Navigation('frmSignUp');
+    nav.navigate();
   }
+
+
+
 });

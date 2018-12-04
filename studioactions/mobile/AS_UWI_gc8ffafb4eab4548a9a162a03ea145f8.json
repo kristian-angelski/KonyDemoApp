@@ -1,0 +1,28 @@
+{
+    "AS_UWI_gc8ffafb4eab4548a9a162a03ea145f8": {
+        "id": "AS_UWI_gc8ffafb4eab4548a9a162a03ea145f8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b7bce20c862840659d421315a8fd7755"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e849454d37c94078a47ae4b785f8e441",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "signUp",
+            "display": "signUp",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

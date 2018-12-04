@@ -3,16 +3,18 @@ define({
  //Type your controller code here 
 	addPost() {
 		let input = this.view.areaTweet.text;
-		let newPost = new com.softserveinc.post();
+    
+    if (input === null || input === '') {
+      return;
+    }
+		let newPost = new com.softserveinc.post({
+      'id': Math.random(),
+      'isVisible': true
+    }, {}, {});
 		
-		if (input !== null || input !== '') {
-			newPost.post = input;
-		} else {
-			return;
-		}
-		
-		this.view.flxMain.add(newPost);
-		
+    newPost.post = input;
+   	this.view.flxHomePosts.add(newPost);
+    
 		this.view.flxAddNewTweet.isVisible = false;
 		this.view.flxMain.isVisible = true;
 	},

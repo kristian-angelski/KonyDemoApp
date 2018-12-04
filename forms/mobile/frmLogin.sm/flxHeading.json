@@ -1,10 +1,9 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizRichText",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -16,14 +15,15 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "s2bf424a194a492fa85f7b8d1a1bc446",
-    "_text_": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm",
+    "_percent_": true,
+    "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -32,22 +32,29 @@
         "type": "string",
         "value": "100%"
     },
-    "_wrapping_": 2,
+    "allboxes": [],
+    "autogrowmode": 1,
     "canUpdateUI": true,
+    "children": [
+        "lblHeading"
+    ],
+    "clipbounds": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "rtPost",
+    "enablescrolling": true,
+    "id": "flxHeading",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "eac9d8473c644d519c6a8b08d87554a8",
-    "linkskin": "s4b76b37361c403c8817c1883bbec06e",
-    "name": "kony.ui.RichText",
-    "parent": "flxTxt",
-    "pf": "userwidgetmodel",
+    "kuid": "g7ca7bacd667484b87d81fad059a6790",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxContent",
+    "pf": "frmLogin",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "RichText",
-    "widgetalignment": 5,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

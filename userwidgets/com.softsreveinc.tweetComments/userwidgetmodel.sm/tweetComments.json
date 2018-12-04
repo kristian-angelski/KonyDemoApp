@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -29,10 +29,11 @@
         "value": "0dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "allboxes": [],
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
         "flxPost"
