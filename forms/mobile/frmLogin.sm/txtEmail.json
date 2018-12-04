@@ -6,6 +6,10 @@
         "type": "string",
         "value": "40dp"
     },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_margin_": [
         0,
         0,
@@ -19,11 +23,11 @@
         0
     ],
     "_placeholder_": "",
-    "_skin_": "s14e27e6f09348a39b1b45a5c10e07a2",
+    "_skin_": "s306d54955e8416a9825ac6de7bbd51f",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
@@ -34,26 +38,22 @@
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "focusskin": "sd874a2c199342b98396bd78adcf9c15",
-    "id": "txtUsernameMailNumber",
+    "focusskin": "s11a0df3d4e646d4936b5fb169bae822",
+    "id": "txtEmail",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "fdcba24f722f48288d59b7c4c4922b20",
+    "kuid": "c2b74fe9a3b9452eb427168f44215d98",
     "mode": "A",
     "name": "kony.ui.TextBox2",
     "parent": "flxEmail",
     "pf": "frmLogin",
-    "placeholderskin": "s18287e037d0485d80e0c6b93da0d2b2",
+    "placeholderskin": "s0dac2f57bc44c26bb15114cbc4aad47",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

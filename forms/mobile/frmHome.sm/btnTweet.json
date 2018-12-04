@@ -42,7 +42,6 @@
     "displaytext": true,
     "focusskin": "s7f5fc3806374333aba01bf589040e88",
     "id": "btnTweet",
-    "ide_onClick": "AS_Button_gdb30ce584ef47efb6ee37fd76058f9f",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

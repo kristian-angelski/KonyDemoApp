@@ -4,8 +4,8 @@
     "__parentReadjusting__": false,
     "_children_": [],
     "_height_": {
-        "type": "string",
-        "value": "63dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -46,7 +46,6 @@
         "isVisible3": true,
         "isVisible4": false,
         "isVisible5": false,
-        "isVisible6": true,
         "isVisible7": false
     },
     "enablescrolling": true,

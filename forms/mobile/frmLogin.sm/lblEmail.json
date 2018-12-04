@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_margin_": [
         1,
@@ -22,8 +22,8 @@
         0,
         0
     ],
-    "_skin_": "s2d82d8fcf4745eabcfa1bf9e44eb2d5",
-    "_text_": "Phone number, email address or username",
+    "_skin_": "s0c5d398a62b4e6bbd37fc2a38d510d6",
+    "_text_": "Phone number, email address, or username",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -40,13 +40,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblUsernameMailNumber",
+    "id": "lblEmail",
     "info": null,
     "ipad": {
         "psp": {
@@ -60,7 +56,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g5ecc9610aee40ebbc70e751a0a723e0",
+    "kuid": "cbaba165bde84adcae7a717069a8e48f",
     "name": "kony.ui.Label",
     "parent": "flxEmail",
     "pf": "frmLogin",

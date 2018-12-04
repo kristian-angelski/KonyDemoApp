@@ -23,10 +23,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s4c6b756e5974dd193dc599260dfe6bc",
+    "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "30dp"
     },
     "_width_": {
         "type": "string",
@@ -36,9 +36,9 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "lblUsernameMailNumber",
-        "txtUsernameMailNumber",
-        "lblRequiredEmail"
+        "lblEmail",
+        "txtEmail",
+        "flxEmailHr"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -47,10 +47,10 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jd7aaf5226194bbbae9c5f93947f098f",
+    "kuid": "d139db86b617403fb7db8354419734be",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMain",
+    "parent": "flxContent",
     "pf": "frmLogin",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -5,6 +5,5 @@ define({
     /** onClick defined for btnLogin **/
     AS_Button_i22ef2f8eb4a4e139472820dd6a79f24: function AS_Button_i22ef2f8eb4a4e139472820dd6a79f24(eventobject) {
         var self = this;
-        return self.validate.call(this);
     }
 });
