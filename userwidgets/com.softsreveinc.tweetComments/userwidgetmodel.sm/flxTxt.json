@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "70%"
     },
     "_left_": {
         "type": "string",
@@ -36,20 +36,20 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "post"
+        "rtPost"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxMain",
+    "id": "flxTxt",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bd218bc6c1744478b6a682781090c91f",
-    "layouttype": 4,
+    "kuid": "b562a41ed73045c09e486878a693cc24",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmHome",
-    "pf": "frmHome",
+    "parent": "flxMsg",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,

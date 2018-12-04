@@ -172,6 +172,23 @@
                         "wType": "FlexContainer"
                     },
                     "srcWgtKUID": "f4b41c9514164964b019f5e83152f360"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c11bdca31cb442da805a6daf41395a66",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 9,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Text",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ie69a226c10b458ea05237ae2e99dbe3"
                 }
             ]
         },

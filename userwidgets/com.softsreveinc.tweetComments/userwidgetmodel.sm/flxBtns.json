@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "20%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10%"
     },
     "_margin_": [
         0,
@@ -30,26 +30,29 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "post"
+        "btnComment",
+        "btnShare",
+        "btnLike",
+        "btnMsg"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxMain",
+    "id": "flxBtns",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bd218bc6c1744478b6a682781090c91f",
-    "layouttype": 4,
+    "kuid": "c6a8e67dfb5a4ff79fd6feead8ec4570",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmHome",
-    "pf": "frmHome",
+    "parent": "flxMsg",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
