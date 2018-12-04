@@ -2,11 +2,7 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
-    /** onClick defined for head **/
-    AS_UWI_c2424776c4a04f70bdecbd191bb80eb3: function AS_UWI_c2424776c4a04f70bdecbd191bb80eb3(eventobject) {
-        var self = this;
-    },
-    /** onClick defined for head **/
+    /** onClickSign defined for head **/
     AS_UWI_gc8ffafb4eab4548a9a162a03ea145f8: function AS_UWI_gc8ffafb4eab4548a9a162a03ea145f8(eventobject) {
         var self = this;
         return self.signUp.call(this);

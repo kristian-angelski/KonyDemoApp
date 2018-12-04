@@ -87,7 +87,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "b354c531acbf40f791ab349c699b72bd",
+                    "kuid": "c109d409838c4b2abe1adfda625bd8ea",
                     "originalPropertyKey": "text",
                     "propertyIndex": 4,
                     "propertyKey": "post",
@@ -96,12 +96,12 @@
                         "category": "look",
                         "dependentKeysKUIDs": null,
                         "displayName": "user post",
-                        "srcWidget": "rtPost",
+                        "srcWidget": "areaPost",
                         "type": "string",
                         "uiRepresentation": "Label-Textarea",
-                        "wType": "RichText"
+                        "wType": "TextArea"
                     },
-                    "srcWgtKUID": "eac9d8473c644d519c6a8b08d87554a8"
+                    "srcWgtKUID": "a39659ccf531418d8030f1f4c8d7848a"
                 }
             ]
         },

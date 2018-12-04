@@ -199,12 +199,12 @@
     "accountCloudGuid": "990b7119-9591-4481-a42a-75650efa137e",
     "projectCloudGuid": "fe39ae62-5849-4d60-89cc-3c144cb8eaa9",
     "prototype": {
-        "createdOn": "2018-12-04T19:03:08.109Z",
-        "createdById": "8a53242e-d7d0-4e24-ab51-acd9a586590e",
+        "PublishMode": "public",
+        "resourceId": "4f575189-bb60-4ceb-b589-764ba6c4b0ce",
         "createdBy": "Kristian Angelski",
         "shareGuid": "CR1Q9",
-        "resourceId": "4f575189-bb60-4ceb-b589-764ba6c4b0ce",
-        "PublishMode": "public"
+        "createdOn": "2018-12-04T19:03:08.109Z",
+        "createdById": "8a53242e-d7d0-4e24-ab51-acd9a586590e"
     },
     "wap_bb400_fontsize": "14",
     "wap_bb360_fontsize": "13",
