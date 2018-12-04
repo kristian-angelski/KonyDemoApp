@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_jc01ec75e7964b858820c5ab0019fdec": {
+        "id": "AS_FlexContainer_jc01ec75e7964b858820c5ab0019fdec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEditProfile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b00ea3a139934513812e8ca22b551a06"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c2804891b7474c24b49311f87ff2fc7c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "captureWallpaper",
+            "display": "captureWallpaper",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

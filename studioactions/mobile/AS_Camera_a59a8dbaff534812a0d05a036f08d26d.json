@@ -1,0 +1,31 @@
+{
+    "AS_Camera_a59a8dbaff534812a0d05a036f08d26d": {
+        "id": "AS_Camera_a59a8dbaff534812a0d05a036f08d26d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEditProfile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b00ea3a139934513812e8ca22b551a06"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f2fb16e7ff024c8ba1a2bf0f3a30682a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "captureWallpaper",
+            "display": "captureWallpaper",
+            "inputparams": [{
+                "name": "eventobject",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

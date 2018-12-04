@@ -1,0 +1,34 @@
+{
+    "AS_FlexContainer_e1ffc9a217904078a221d8366fb005cd": {
+        "id": "AS_FlexContainer_e1ffc9a217904078a221d8366fb005cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEditProfile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b00ea3a139934513812e8ca22b551a06"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___f3507ade5c934e98810fe42c6aa46ba5",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmEditProfile",
+            "widgetId": "flxEditingName",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "b00ea3a139934513812e8ca22b551a06",
+            "widgetKUID": "cf56b8e8be044b399387690e201ce9f4",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxEditingName"
+        }]
+    }
+}

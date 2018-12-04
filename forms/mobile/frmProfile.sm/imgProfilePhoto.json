@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -27,11 +27,11 @@
     "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
-        "value": "100dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
@@ -49,7 +49,7 @@
     "isvisible": true,
     "kuid": "f7ff8118b6994fc1beaa8cf4043faef2",
     "name": "kony.ui.Image2",
-    "parent": "flxImages",
+    "parent": "flxProfilePhoto",
     "pf": "frmProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
