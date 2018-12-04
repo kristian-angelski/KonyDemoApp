@@ -39,7 +39,7 @@
         "flxHeading",
         "flxEmail",
         "flxPassword",
-        "lblForgottenPassword"
+        "flxForgottenPassword"
     ],
     "clipbounds": true,
     "containerweight": 100,

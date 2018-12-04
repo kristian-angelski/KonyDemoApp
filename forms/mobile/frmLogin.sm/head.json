@@ -40,13 +40,14 @@
     "clipbounds": true,
     "containerweight": 0,
     "data": {
+        "ide_onClick": "AS_UWI_gc8ffafb4eab4548a9a162a03ea145f8",
         "isVisible1": false,
-        "isVisible1099918048": true,
         "isVisible2": false,
         "isVisible3": true,
         "isVisible4": false,
         "isVisible5": false,
-        "isVisible7": false
+        "isVisible7": false,
+        "isVisible8": true
     },
     "enablescrolling": true,
     "id": "head",

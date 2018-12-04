@@ -11,7 +11,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "ee284294a6404443a05f0e7fa134eed6",
+                    "kuid": "a2695013370241d79cc129a77b580da9",
                     "originalPropertyKey": "onClick",
                     "propertyIndex": 1,
                     "propertyKey": "onClick",
@@ -19,11 +19,12 @@
                         "access": "readwrite",
                         "category": "action",
                         "displayName": "onClick",
+                        "srcWidget": "btnSignUp",
                         "type": "action",
                         "uiRepresentation": "Label-Label-Button-Button",
                         "wType": "Button"
                     },
-                    "srcWgtKUID": "dd5be46346a041b3bc28a7c0b1d187aa"
+                    "srcWgtKUID": "ie69a226c10b458ea05237ae2e99dbe3"
                 }
             ]
         },
@@ -178,7 +179,7 @@
                     "kuid": "fe47c4da77c14a8484ed405595e0065b",
                     "originalPropertyKey": "isVisible",
                     "propertyIndex": 8,
-                    "propertyKey": "isVisible1099918048",
+                    "propertyKey": "isVisible8",
                     "pw": {
                         "access": "readwrite",
                         "category": "look",
@@ -201,7 +202,9 @@
                     "pw": {
                         "access": "readwrite",
                         "category": "look",
-                        "displayName": "Text",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "button TEXT",
+                        "srcWidget": "btnSignUp",
                         "type": "string",
                         "uiRepresentation": "Label-Textbox",
                         "wType": "Button"

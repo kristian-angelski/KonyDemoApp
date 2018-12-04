@@ -38,6 +38,7 @@
     "displaytext": true,
     "focusskin": "s651044e95c4430bbb40026348ed4646",
     "id": "btnLogIn",
+    "ide_onClick": "AS_Button_h233ab5f58954e6ca60285f1e3726c72",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
