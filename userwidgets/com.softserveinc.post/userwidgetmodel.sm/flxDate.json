@@ -26,30 +26,28 @@
     "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "allboxes": [],
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "btnComment",
-        "btnShare",
-        "btnLike",
-        "btnMsg"
+        "flxDateContent",
+        "flxDateHR"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxBtns",
+    "id": "flxDate",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "a6790bb489f8442a9c91aec1150d8955",
-    "layouttype": 3,
+    "isvisible": false,
+    "kuid": "i089847dc39b4dbab24fbbd617d55b12",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "flxPost",
     "pf": "userwidgetmodel",
