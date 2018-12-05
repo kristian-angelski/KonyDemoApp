@@ -2,12 +2,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -24,40 +24,36 @@
     ],
     "_percent_": true,
     "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "btnComment",
-        "btnShare",
-        "btnLike",
-        "btnMsg"
+        "lblDate"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxBtns",
+    "id": "flxDateContent",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a6790bb489f8442a9c91aec1150d8955",
-    "layouttype": 3,
+    "kuid": "ce66e11773654e71ad55be56e41cef49",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxPost",
+    "parent": "flxDate",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

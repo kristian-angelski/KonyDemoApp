@@ -2,6 +2,11 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
+    /** onClickSign defined for head **/
+    AS_UWI_f699152834314aea94a1a35f014b3c19: function AS_UWI_f699152834314aea94a1a35f014b3c19(eventobject) {
+        var self = this;
+        return self.validate.call(this);
+    },
     /** onBeginEditing defined for txtUserName **/
     AS_TextField_ef9a5d08553249f289c5573ce9f91f07: function AS_TextField_ef9a5d08553249f289c5573ce9f91f07(eventobject, changedtext) {
         var self = this;
@@ -105,15 +110,5 @@ define({
                 self.view.linePass.skin = "sknHorizontalLine";
             })();
         }
-    },
-    /** onClickSign defined for head **/
-    AS_UWI_h94ed0eec90544e5ae72fac9d0fa2a5e: function AS_UWI_h94ed0eec90544e5ae72fac9d0fa2a5e(eventobject) {
-        var self = this;
-        return
-    },
-    /** onClickSign defined for head **/
-    AS_UWI_f699152834314aea94a1a35f014b3c19: function AS_UWI_f699152834314aea94a1a35f014b3c19(eventobject) {
-        var self = this;
-        return self.validate.call(this);
     }
 });

@@ -37,7 +37,10 @@
     "canUpdateUI": true,
     "children": [
         "flxUser",
-        "flxMsg",
+        "flxPostContent",
+        "flxDate",
+        "flxStats",
+        "flxBtns",
         "flxBottomHR"
     ],
     "clipbounds": true,
