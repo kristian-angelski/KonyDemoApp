@@ -44,10 +44,10 @@
     "isvisible": true,
     "kuid": "ie0cdcfed7fe4d96974ac4dd6a8229f2",
     "name": "kony.ui.Button",
-    "parent": "flxImages",
+    "parent": "flxBtnBack",
     "pf": "frmEditProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",
-    "zindex": 2
+    "zindex": 1
 }
