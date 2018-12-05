@@ -2,12 +2,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -30,28 +30,26 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "btnComment",
-        "btnShare",
-        "btnLike",
-        "btnMsg"
+        "lblRetweets",
+        "lblLikes"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxBtns",
+    "id": "flxStatsContent",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a6790bb489f8442a9c91aec1150d8955",
+    "kuid": "c4908ca11398445f8ee8ed10a217831f",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxPost",
+    "parent": "flxStats",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
