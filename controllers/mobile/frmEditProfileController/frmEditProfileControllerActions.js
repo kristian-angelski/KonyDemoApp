@@ -30,5 +30,11 @@ define({
     AS_Button_j55ec94dd043476fbcc6276292a77c05: function AS_Button_j55ec94dd043476fbcc6276292a77c05(eventobject) {
         var self = this;
         return self.changeName.call(this);
+    },
+    /** onClick defined for btnBack **/
+    AS_Button_f7cb341911644bb296b5ac396a36692b: function AS_Button_f7cb341911644bb296b5ac396a36692b(eventobject) {
+        var self = this;
+        var ntf = new kony.mvc.Navigation("frmProfile");
+        ntf.navigate();
     }
 });
