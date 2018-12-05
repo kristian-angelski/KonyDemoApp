@@ -8,16 +8,15 @@
         }],
         "language": "js",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM___i726520726b446ff913fe315fe3a67a2",
-            "type": "NAVIGATE_TO_FORM",
-            "formId": "frmProfile",
-            "formKUID": "i452847d109940939bf6f9ad82db4846",
-            "mappings": {},
-            "mappingsOrder": [],
-            "parentId": "",
+            "id": "INVOKE_FUNCTION___he2a1715466a4fc9a7b5501cc958fd6b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toFrmProfile",
+            "display": "toFrmProfile",
+            "inputparams": [],
+            "parentId": null,
             "callbackType": null,
-            "enableMappingEditor": true,
-            "package": ""
+            "disabled": null,
+            "source": "controller"
         }]
     }
 }

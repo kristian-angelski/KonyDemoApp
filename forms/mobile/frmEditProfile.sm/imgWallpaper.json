@@ -38,6 +38,7 @@
     "context": {
         "channel": "mobile",
         "formID": "frmEditProfile",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },

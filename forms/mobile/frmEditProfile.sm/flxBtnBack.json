@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "220dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -23,36 +23,32 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s00dbb437461480ba99f53cce0819ae7",
+    "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "imgWallpaper",
-        "camWallpaper",
-        "flxBtnBack",
-        "flxProfilePhoto",
-        "flxbuttons"
+        "btnBack"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxImages",
+    "id": "flxBtnBack",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i8930d91d7f54b25bbe672ba5d1303ce",
+    "kuid": "e9abca8aaed7497e9e137cd44df4644d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMain",
+    "parent": "flxImages",
     "pf": "frmEditProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -60,5 +56,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 2
 }
