@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s0540d28de3d4459865f7a002d629ee4",
-    "_text_": "Password",
+    "_text_": "Full Name",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -42,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblPass",
+    "id": "lblFullName",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,9 +56,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fa25254debae4d7888489c9ae5b32ab9",
+    "kuid": "c9995d5e4bbc4eaabf746ac22cfebf91",
     "name": "kony.ui.Label",
-    "parent": "flxPass",
+    "parent": "flxFullName",
     "pf": "frmSignUp",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

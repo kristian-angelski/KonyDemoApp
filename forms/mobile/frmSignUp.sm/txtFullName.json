@@ -34,8 +34,8 @@
         "value": "100%"
     },
     "android": {
-        "ide_onBeginEditing": "AS_TextField_f35c94d06ca34275aef94cc16fffc5b8",
-        "ide_onEndEditing": "AS_TextField_a0623898a7094b80849d20b24163ef30"
+        "ide_onBeginEditing": "AS_TextField_ffedd76774aa42ecb1565a09b317736b",
+        "ide_onEndEditing": "AS_TextField_i2ffea468fde4a0aab7949fd12363e7e"
     },
     "autocapitalize": "none",
     "autocomplete": false,
@@ -48,24 +48,24 @@
     "contentalignment": 4,
     "disabledSkins": {},
     "focusskin": "s306d54955e8416a9825ac6de7bbd51f",
-    "id": "txtPass",
+    "id": "txtFullName",
     "info": null,
     "iphone": {
-        "ide_onBeginEditing": "AS_TextField_d30fd868e82549ca8c104cf52a71e70b",
-        "ide_onEndEditing": "AS_TextField_e7c354887d804357a64089e483dcccf7"
+        "ide_onBeginEditing": "AS_TextField_bf19df7b22ce4b02995d8ddf8f53d53a",
+        "ide_onEndEditing": "AS_TextField_b493b5a2ac8f4be0905775088918747e"
     },
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "j01533a76d2f4d8e8361988c2b728e41",
+    "kuid": "jb2c664442764ce985cb641117bb42be",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "flxPass",
+    "parent": "flxFullName",
     "pf": "frmSignUp",
     "placeholderskin": "s0dac2f57bc44c26bb15114cbc4aad47",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "securetextentry": true,
+    "securetextentry": false,
     "textinputmode": "A",
     "tooltip": "",
     "viewtype": "default",

@@ -110,5 +110,57 @@ define({
                 self.view.linePass.skin = "sknHorizontalLine";
             })();
         }
+    },
+    /** onBeginEditing defined for txtFullName **/
+    AS_TextField_bf19df7b22ce4b02995d8ddf8f53d53a: function AS_TextField_bf19df7b22ce4b02995d8ddf8f53d53a(eventobject, changedtext) {
+        var self = this;
+        if (kony.theme.getCurrentTheme() != "default") {
+            kony.theme.setCurrentTheme("default", function() {
+                self.view.linePass.skin = "blueSkin";
+            }, null);
+        } else {
+            (function() {
+                self.view.linePass.skin = "blueSkin";
+            })();
+        }
+    },
+    /** onEndEditing defined for txtFullName **/
+    AS_TextField_b493b5a2ac8f4be0905775088918747e: function AS_TextField_b493b5a2ac8f4be0905775088918747e(eventobject, changedtext) {
+        var self = this;
+        if (kony.theme.getCurrentTheme() != "default") {
+            kony.theme.setCurrentTheme("default", function() {
+                self.view.linePass.skin = "sknHorizontalLine";
+            }, null);
+        } else {
+            (function() {
+                self.view.linePass.skin = "sknHorizontalLine";
+            })();
+        }
+    },
+    /** onBeginEditing defined for txtFullName **/
+    AS_TextField_ffedd76774aa42ecb1565a09b317736b: function AS_TextField_ffedd76774aa42ecb1565a09b317736b(eventobject, changedtext) {
+        var self = this;
+        if (kony.theme.getCurrentTheme() != "default") {
+            kony.theme.setCurrentTheme("default", function() {
+                self.view.linePass.skin = "blueSkin";
+            }, null);
+        } else {
+            (function() {
+                self.view.linePass.skin = "blueSkin";
+            })();
+        }
+    },
+    /** onEndEditing defined for txtFullName **/
+    AS_TextField_i2ffea468fde4a0aab7949fd12363e7e: function AS_TextField_i2ffea468fde4a0aab7949fd12363e7e(eventobject, changedtext) {
+        var self = this;
+        if (kony.theme.getCurrentTheme() != "default") {
+            kony.theme.setCurrentTheme("default", function() {
+                self.view.linePass.skin = "sknHorizontalLine";
+            }, null);
+        } else {
+            (function() {
+                self.view.linePass.skin = "sknHorizontalLine";
+            })();
+        }
     }
 });

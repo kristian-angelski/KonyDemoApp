@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "95dp"
     },
     "_left_": {
         "type": "string",
@@ -30,28 +30,32 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "95%"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "lblCreateProfile",
-        "flxFullName",
-        "flxUserName",
-        "flxPass"
+        "lblFullName",
+        "txtFullName",
+        "lineFullName",
+        "lblInvalidFullName"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxCreateProfile",
+    "id": "flxFullName",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jb0745f95cd94987a657896a683a79f4",
+    "kuid": "e3d2381da9314c2594ceeca94520bdf6",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMain",
+    "parent": "flxCreateProfile",
     "pf": "frmSignUp",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
