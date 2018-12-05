@@ -1,4 +1,5 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
@@ -15,15 +16,14 @@
         0,
         0
     ],
-    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_percent_": true,
-    "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
+    "_skin_": "sc4339aa859345099a58db4b8318d167",
+    "_text_": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -32,32 +32,22 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 1,
+    "_wrapping_": 2,
     "canUpdateUI": true,
-    "children": [
-        "btnComment",
-        "btnShare",
-        "btnLike",
-        "btnMsg"
-    ],
-    "clipbounds": true,
     "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxBtns",
+    "contentalignment": 1,
+    "id": "rtPost",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a6790bb489f8442a9c91aec1150d8955",
-    "layouttype": 3,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxPost",
+    "kuid": "i00c7535f53c43e89b0a43105264e09f",
+    "linkskin": "s4b76b37361c403c8817c1883bbec06e",
+    "name": "kony.ui.RichText",
+    "parent": "flxTxt",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "wType": "RichText",
+    "widgetalignment": 5,
     "zindex": 1
 }

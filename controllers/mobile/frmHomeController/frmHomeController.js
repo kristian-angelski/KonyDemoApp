@@ -13,7 +13,12 @@ define({
     }, {}, {});
 		
     newPost.post = input;
-   	this.view.flxHomePosts.add(newPost);
+		try {
+			this.view.flxHomePosts.add(newPost);	
+			this.view.areaTweet.text = '';
+		} catch(err) {
+			alert('error occured ' + err);
+		}	
     
 		this.view.flxAddNewTweet.isVisible = false;
 		this.view.flxMain.isVisible = true;

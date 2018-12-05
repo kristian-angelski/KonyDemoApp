@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -38,6 +38,7 @@
     "displaytext": true,
     "focusskin": "sc0c37aac654432d97cff665fd0ab8aa",
     "id": "btnComment",
+    "ide_onClick": "AS_Button_je46e63e7a5e4984a015480ed2a953e6",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

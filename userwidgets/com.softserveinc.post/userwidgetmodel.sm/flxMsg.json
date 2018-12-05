@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "140dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -33,11 +33,10 @@
         "value": "90%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "flxTxt",
-        "flxBtns"
+        "flxTxt"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -49,7 +48,7 @@
     "kuid": "gd047537cc044b9cb3223b7c81049960",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxPost",
+    "parent": "flxPostContent",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

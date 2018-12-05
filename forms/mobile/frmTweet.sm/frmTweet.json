@@ -30,8 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "head",
-        "post"
+        "flxScrMain"
     ],
     "containerweight": 100,
     "controllerInfo": {

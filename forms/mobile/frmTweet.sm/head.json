@@ -40,6 +40,7 @@
     "clipbounds": true,
     "containerweight": 0,
     "data": {
+        "ide_onClick": "AS_UWI_f7dedfe1c6e24b19a272d63710a2f2fa",
         "isVisible1": false,
         "isVisible2": true,
         "isVisible3": false,
@@ -59,7 +60,7 @@
     "layouttype": 4,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "frmTweet",
+    "parent": "flxScrMain",
     "pf": "frmTweet",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
