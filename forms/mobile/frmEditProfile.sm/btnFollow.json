@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s57bbaf07354464c8d1ebbd349ac92a2",
+    "_skin_": "sc03a7472d4d4431960bf4a69d971564",
     "_text_": "Follow",
     "_width_": {
         "type": "string",
@@ -36,7 +36,7 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "se8764b702e84647a6001dba0d3bbe0f",
+    "focusskin": "see28fc36cd845df91fd3042c9a935f5",
     "id": "btnFollow",
     "info": null,
     "iscustomlayout": false,

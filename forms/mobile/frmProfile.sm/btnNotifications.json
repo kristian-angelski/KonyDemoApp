@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s76464b1310143fc9413fa71b2b570ad",
+    "_skin_": "sc03a7472d4d4431960bf4a69d971564",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -40,7 +40,7 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "se8764b702e84647a6001dba0d3bbe0f",
+    "focusskin": "see28fc36cd845df91fd3042c9a935f5",
     "id": "btnNotifications",
     "info": null,
     "iscustomlayout": false,
