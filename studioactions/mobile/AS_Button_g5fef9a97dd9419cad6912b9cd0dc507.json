@@ -1,0 +1,21 @@
+{
+    "AS_Button_g5fef9a97dd9419cad6912b9cd0dc507": {
+        "id": "AS_Button_g5fef9a97dd9419cad6912b9cd0dc507",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_b8a6a742fd1d4eb0a06ff3a307af832b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toFrmEdit",
+            "display": "toFrmEdit",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

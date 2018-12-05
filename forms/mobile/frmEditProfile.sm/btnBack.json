@@ -1,21 +1,20 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "70%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
         "value": "0dp"
     },
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        6,
+        6,
+        6,
+        6
     ],
     "_padding_": [
         0,
@@ -23,37 +22,32 @@
         0,
         0
     ],
-    "_skin_": "s1d27d3dcbc84c0a9a148fc1cbd71c03",
-    "_src_": "imagedrag.png",
+    "_skin_": "s17e616ff0034160b6aaadf1a780458c",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "context": {
-        "channel": "mobile",
-        "formID": "frmEditProfile",
-        "templateType": "forms",
-        "topLevelBox": null
-    },
-    "id": "imgWallpaper",
-    "imagescalemode": 0,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s52dcbc60c4d4cb19e4eb50378b3b911",
+    "id": "btnBack",
+    "ide_onClick": "AS_Button_f7cb341911644bb296b5ac396a36692b",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b43e7ebaf0c24f1d95f9ce7ff9e550b3",
-    "name": "kony.ui.Image2",
+    "kuid": "ie0cdcfed7fe4d96974ac4dd6a8229f2",
+    "name": "kony.ui.Button",
     "parent": "flxImages",
     "pf": "frmEditProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "srcType": 1,
-    "wType": "Image",
-    "widgetalignment": 5,
-    "zindex": 1
+    "wType": "Button",
+    "zindex": 2
 }
