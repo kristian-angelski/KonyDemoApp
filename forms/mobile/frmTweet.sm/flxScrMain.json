@@ -48,7 +48,7 @@
     "dragg": false,
     "enablescrolling": true,
     "horizontalscrollindicator": true,
-    "id": "FlexScrollGroup0a6689845b83f45",
+    "id": "flxScrMain",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
