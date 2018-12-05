@@ -43,6 +43,23 @@
                         "wType": "Button"
                     },
                     "srcWgtKUID": "dd5be46346a041b3bc28a7c0b1d187aa"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b938e483a9ff459483bc5dd65e18feef",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 3,
+                    "propertyKey": "onClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClick",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "c97b2461161c4720a39cd6b30d1026c3"
                 }
             ]
         },

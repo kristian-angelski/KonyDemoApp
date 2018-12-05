@@ -30,8 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "head",
-        "post"
+        "FlexScrollGroup0a6689845b83f45"
     ],
     "containerweight": 100,
     "controllerInfo": {
