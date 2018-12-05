@@ -2,8 +2,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "1dp"
     },
     "_left_": {
         "type": "string",
@@ -23,35 +23,32 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s1bdd2ef258945b3b22f055db1111fb7",
+    "_skin_": "s28fbd4e7c9449bd98f0d80bd8c388eb",
     "_top_": {
         "type": "string",
-        "value": "30dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "lblCreateProfile",
-        "flxFullName",
-        "flxUserName",
-        "flxPass"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
+    "disabledSkins": {},
     "enablescrolling": true,
-    "id": "flxCreateProfile",
+    "focusskin": "sa5ca964431d4b1b9ec78287a4562f27",
+    "id": "lineFullName",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jb0745f95cd94987a657896a683a79f4",
-    "layouttype": 4,
+    "kuid": "ae6c12fff89b438e86284c5e3dd1897f",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMain",
+    "parent": "flxFullName",
     "pf": "frmSignUp",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

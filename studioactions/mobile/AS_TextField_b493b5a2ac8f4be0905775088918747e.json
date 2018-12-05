@@ -1,0 +1,32 @@
+{
+    "AS_TextField_b493b5a2ac8f4be0905775088918747e": {
+        "id": "AS_TextField_b493b5a2ac8f4be0905775088918747e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____e2e3c73e58cd40a6b353e3eda566d6c8",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmSignUp",
+            "widgetId": "linePass",
+            "propertyName": "skin",
+            "propertyValue": "sknHorizontalLine",
+            "itemKUID": "c2375c33c58842e7a9068d396bb52c1a",
+            "widgetKUID": "b4415c377d71403bad92710b7329a782",
+            "skinKUID": "s9575908601045bc9690d4bf0690d090",
+            "isSkinProperty": true,
+            "wType": "FlexContainer",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "callbackType": null,
+            "widgetPath": "this.view.linePass"
+        }]
+    }
+}

@@ -15,6 +15,12 @@ define({
       this.view.linePass.skin = 'sknLoginFrmHR';
     }
 
+    if (!this.validateField(this.view.txtFullName)) {
+      this.view.lineFullName.skin = 'sknLoginFrmInvalid';
+    } else {
+      this.view.lineFullName.skin = 'sknLoginFrmHR';
+    }
+
     if ( this.validateField(this.view.txtUserName) && this.validateField(this.view.txtPass) ) {
       if (kony.string.isValidEmail(this.view.txtUserName.text)) {
         this.signUp();
