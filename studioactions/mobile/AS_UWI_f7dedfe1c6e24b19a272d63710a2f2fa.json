@@ -1,0 +1,28 @@
+{
+    "AS_UWI_f7dedfe1c6e24b19a272d63710a2f2fa": {
+        "id": "AS_UWI_f7dedfe1c6e24b19a272d63710a2f2fa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTweet",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bc94feda0f5548deac4948d6bf4f421d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___h2511cd14a3f45c58a6df27a14b3af53",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "toProfileFrm",
+            "display": "toProfileFrm",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
