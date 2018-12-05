@@ -36,20 +36,17 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "btnComment",
-        "btnShare",
-        "btnLike",
-        "btnMsg"
+        "flxMsg"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxBtns",
+    "id": "flxPostContent",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a6790bb489f8442a9c91aec1150d8955",
-    "layouttype": 3,
+    "kuid": "ha703a4ab6664a098387878743773426",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "flxPost",
     "pf": "userwidgetmodel",
@@ -58,6 +55,5 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

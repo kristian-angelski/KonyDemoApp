@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "2dp"
     },
     "_left_": {
         "type": "string",
@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd6fe24037ae4f5b91b496943f070949",
+    "_skin_": "s9575908601045bc9690d4bf0690d090",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -33,38 +33,26 @@
         "value": "100%"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "head",
-        "post",
-        "tweetComments"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "FlexScrollGroup0a6689845b83f45",
+    "id": "flxStatsHR",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "gee97e9f75454beb8b33583bdd443324",
-    "layouttype": 4,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
-    "parent": "frmTweet",
-    "pf": "frmTweet",
+    "kuid": "a285442aaf81483d86168b6789c27856",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxStats",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
-    "widgetalignment": 1
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
 }

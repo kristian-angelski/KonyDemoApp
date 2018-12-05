@@ -17,5 +17,6 @@ define(function() {
 			tweetFrm.navigate();
         
       }
+
 	};
 });

@@ -87,7 +87,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "c109d409838c4b2abe1adfda625bd8ea",
+                    "kuid": "faee29f24e5242aeb9d76186e5575702",
                     "originalPropertyKey": "text",
                     "propertyIndex": 4,
                     "propertyKey": "post",
@@ -96,12 +96,50 @@
                         "category": "look",
                         "dependentKeysKUIDs": null,
                         "displayName": "user post",
-                        "srcWidget": "areaPost",
+                        "srcWidget": "rtPost",
                         "type": "string",
                         "uiRepresentation": "Label-Textarea",
-                        "wType": "TextArea"
+                        "wType": "RichText"
                     },
-                    "srcWgtKUID": "a39659ccf531418d8030f1f4c8d7848a"
+                    "srcWgtKUID": "i00c7535f53c43e89b0a43105264e09f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d289121254534d53bcdd826765831a63",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "isVisible1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "date visible",
+                        "srcWidget": "flxDate",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "i089847dc39b4dbab24fbbd617d55b12"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "abfa2f5fdbe44e958378c32edf652f0d",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 6,
+                    "propertyKey": "isVisible2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "stats visible",
+                        "srcWidget": "flxStats",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "bac103d310f34b20a4ee9b4a6723a5b2"
                 }
             ]
         },

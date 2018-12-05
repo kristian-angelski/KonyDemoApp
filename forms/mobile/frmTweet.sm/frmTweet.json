@@ -30,7 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "FlexScrollGroup0a6689845b83f45"
+        "flxScrMain"
     ],
     "containerweight": 100,
     "controllerInfo": {
