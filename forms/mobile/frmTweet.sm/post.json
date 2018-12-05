@@ -39,7 +39,10 @@
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "isVisible1": true,
+        "isVisible2": true
+    },
     "enablescrolling": true,
     "id": "post",
     "info": null,
@@ -50,7 +53,7 @@
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "FlexScrollGroup0a6689845b83f45",
+    "parent": "flxScrMain",
     "pf": "frmTweet",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
