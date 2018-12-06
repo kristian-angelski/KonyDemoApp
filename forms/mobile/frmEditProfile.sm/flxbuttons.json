@@ -36,9 +36,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "btnMail",
+        "btnFollow",
         "btnNotifications",
-        "btnFollow"
+        "btnMail"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -54,6 +54,7 @@
     "pf": "frmEditProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "reverselayoutdirection": true,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

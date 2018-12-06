@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "70%"
+        "value": "150dp"
     },
     "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -38,7 +38,7 @@
     "context": {
         "channel": "mobile",
         "formID": "frmEditProfile",
-        "platform": "iphone",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },

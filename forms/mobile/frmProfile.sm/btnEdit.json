@@ -6,10 +6,6 @@
         "type": "string",
         "value": "50dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "258dp"
-    },
     "_margin_": [
         6,
         6,
@@ -22,6 +18,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_skin_": "s17e616ff0034160b6aaadf1a780458c",
     "_text_": "",
     "_top_": {
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "48dp"
+        "value": "50dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,

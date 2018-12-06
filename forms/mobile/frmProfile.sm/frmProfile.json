@@ -43,7 +43,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS8",
+    "device": "Pixel",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmProfile",
@@ -98,12 +98,12 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "android",
-    "prevDevice": "iPhoneX",
+    "prevDevice": "GalaxyS8",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS8",
+    "shellCSS": "and_Pixel",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
