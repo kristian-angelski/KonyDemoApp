@@ -29,7 +29,7 @@
     "project.type": "js",
     "project_version": "sprint32",
     "referenceWidth": "375",
-    "startupformkey": "b7bce20c862840659d421315a8fd7755",
+    "startupformkey": "c2375c33c58842e7a9068d396bb52c1a",
     "vendornamekey": "KonyLabs",
     "winmobileguidkey": "",
     "defaulttheme": "defaultTheme",
@@ -248,13 +248,5 @@
     "watchos_watchMarketing1x": "",
     "enableactionbar": false,
     "enablexfsdw": false,
-    "enablexfsspa": false,
-    "kfAppInfo": {
-        "990b7119-9591-4481-a42a-75650efa137e": {
-            "id": "5092cea8-0c0c-4967-a3fb-606460e72005",
-            "baseId": "5092cea8-0c0c-4967-a3fb-606460e72005",
-            "version": "1.0",
-            "appName": "BGTwitterApp1"
-        }
-    }
+    "enablexfsspa": false
 }
