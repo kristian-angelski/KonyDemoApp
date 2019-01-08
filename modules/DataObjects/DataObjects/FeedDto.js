@@ -1,6 +1,6 @@
 class FeedDto extends DataObject {
   constructor(data = {}) {
-    super('Tweet');
+    super('feed');
     
     super.defineProperty('userId');
     super.defineProperty('parentId');

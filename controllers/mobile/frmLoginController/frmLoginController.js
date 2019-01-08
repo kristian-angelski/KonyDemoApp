@@ -33,7 +33,10 @@ define({
   signUp() {
     let nav = new kony.mvc.Navigation('frmSignUp');
     nav.navigate();
-  }
+  },
+	
+	
+	
 
 
 

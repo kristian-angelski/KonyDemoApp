@@ -35,10 +35,10 @@
     "defaulttheme": "defaultTheme",
     "cloud_account_guid": "990b7119-9591-4481-a42a-75650efa137e",
     "nativeContainerProperties": {
-        "isModified": true,
-        "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
-        "isEnableJSContaineriOS": true
+        "isModified": true,
+        "isEnableJSContaineriOS": true,
+        "isEnableJSContainer": true
     },
     "appmenu": {
         "tablet": {
@@ -251,10 +251,10 @@
     "enablexfsspa": false,
     "kfAppInfo": {
         "990b7119-9591-4481-a42a-75650efa137e": {
-            "id": "5092cea8-0c0c-4967-a3fb-606460e72005",
-            "baseId": "5092cea8-0c0c-4967-a3fb-606460e72005",
+            "id": "1fc1892f-2364-4cba-9303-32e052eca662",
+            "baseId": "1fc1892f-2364-4cba-9303-32e052eca662",
             "version": "1.0",
-            "appName": "BGTwitterApp1"
+            "appName": "TwitterTest1"
         }
     }
 }
