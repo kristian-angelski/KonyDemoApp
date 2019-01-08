@@ -10,8 +10,7 @@ define({
     /** onClick defined for btnBack **/
     AS_Button_f7cb341911644bb296b5ac396a36692b: function AS_Button_f7cb341911644bb296b5ac396a36692b(eventobject) {
         var self = this;
-        var ntf = new kony.mvc.Navigation("frmProfile");
-        ntf.navigate();
+        return self.toFrmProfile.call(this);
     },
     /** onCapture defined for camProfilePhoto **/
     AS_Camera_ee6e91b25a31413183d558ec6bf04131: function AS_Camera_ee6e91b25a31413183d558ec6bf04131(eventobject) {
