@@ -15,7 +15,7 @@ image.submit(function(result){
 
 class MediaDto extends DataObject {
   constructor(data = {}) {
-    super('Media');
+    super('media');
     
     super.defineProperty('image');
     super.defineProperty('timeStamp');

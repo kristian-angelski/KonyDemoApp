@@ -24,7 +24,7 @@ class UserDto extends DataObject {
 //     this.state = {
 //       username: username
 //     };
-		
+
 		this.state = Object.assign(this.state, {
 			email: username
 		});

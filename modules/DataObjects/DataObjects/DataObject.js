@@ -49,7 +49,7 @@ class DataObject {
     }
     
     const dataObject = new kony.sdk.dto.DataObject(this.objectName);
-    dataObject.odataUrl = `$filter=${this.objectKey} eq ${keyValue}`;
+    dataObject.odataUrl = `$filter=${keyValue} eq ${this.state[keyValue]}`;
     
     const service = kony.sdk.getCurrentInstance().getObjectService(this.getServiceName(), { access: 'online' });
     service.fetch({dataObject}, function (response) {
