@@ -251,10 +251,11 @@
     "enablexfsspa": false,
     "kfAppInfo": {
         "990b7119-9591-4481-a42a-75650efa137e": {
+            "appName": "TwitterTest1",
             "id": "1fc1892f-2364-4cba-9303-32e052eca662",
             "baseId": "1fc1892f-2364-4cba-9303-32e052eca662",
-            "version": "1.0",
-            "appName": "TwitterTest1"
+            "version": "1.0"
         }
-    }
+    },
+    "cloud_env_GUID": "13a3f619-2156-49f0-a478-14a5ac801e27"
 }
