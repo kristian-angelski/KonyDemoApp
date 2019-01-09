@@ -18,7 +18,9 @@ define({
 
     if ( this.validateField(this.view.txtEmail) && this.validateField(this.view.txtPassword) ) {
       if (kony.string.isValidEmail(this.view.txtEmail.text)) {
-        this.logIn();
+
+        var userDto = new UserDto();
+        userDto.signIn(this.view.txtEmail.text, this.view.txtPassword.text, this.successLogin, this.failLogin);
       } else {
         this.view.flxEmailHr.skin = 'sknLoginFrmInvalid';
       }
@@ -34,10 +36,12 @@ define({
     let nav = new kony.mvc.Navigation('frmSignUp');
     nav.navigate();
   },
-	
-	
-	
-
-
-
+  sucessLogin(result) {
+    let nav = new kony.mvc.Navigation('frmHome');
+    nav.navigate();
+  
+},
+  failLogin(result) {
+     alert(result);
+  }
 });
