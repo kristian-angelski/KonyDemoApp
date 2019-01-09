@@ -1,6 +1,6 @@
 class UserDto extends DataObject {
   constructor(data = {}) {
-    super('User');
+    super('users');
     
     super.defineProperty('username');
     super.defineProperty('password');
@@ -21,15 +21,20 @@ class UserDto extends DataObject {
     password: string
   */
   signIn(username, password, successCallback, failCallback) {
-    this.state = {
-      username: username
-    };
+//     this.state = {
+//       username: username
+//     };
+		
+		this.state = Object.assign(this.state, {
+			email: username
+		});
     
-    this.fetch('username', function(result) {
+    this.fetch('email', function(result) {
       if (result && result.records) {
-      if (this.hashPassword(password) == result.records[0].password)
-      	successCallback(this.state);
-        return;
+      	if (this.hashPassword(password) == result.records[0].password) {
+      		successCallback(this.state);
+				  return;
+				}
       } else {
         failCallback({error: 'Not matching password'});
         return;

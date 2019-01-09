@@ -40,7 +40,7 @@ class DataObject {
     return dataObject;
   }
   
-  getServiceName() { return 'TwitterDB1'; }
+  getServiceName() { return 'TestDB'; }
   
   fetch(key, successCallback, errorCallback) {
     const keyValue = this.getKey() || key;
