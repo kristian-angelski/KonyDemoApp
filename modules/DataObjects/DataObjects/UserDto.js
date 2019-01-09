@@ -1,7 +1,7 @@
 class UserDto extends DataObject {
 	constructor(data = {}) {
 		super('users');
-
+		super.defineProperty('id');
 		super.defineProperty('username');
 		super.defineProperty('password');
 		super.defineProperty('email');
@@ -12,8 +12,7 @@ class UserDto extends DataObject {
 		super.defineProperty('profileImg');
 		super.defineProperty('passResetToken');
 
-
-		this.state = Object.assign({}, data);
+		this.state = Object.assign(this.state, data);
 	}
 
 	/**
@@ -25,12 +24,13 @@ class UserDto extends DataObject {
 		//       username: username
 		//     };
 		this.state = Object.assign(this.state, {
-			email: username
+			email: username,
 		});
 
 		this.fetch('email', function(result) {
-			if (result && result.records) {
-				if (this.hashPassword(password) == result.records[0].password) {
+			alert(result);
+			if (result) {
+				if (this.hashPassword(password) == result.password) {
 					successCallback(this.state);
 					return;
 				} else {
