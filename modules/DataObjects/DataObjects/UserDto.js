@@ -28,18 +28,22 @@ class UserDto extends DataObject {
 		});
 
 		this.fetch('email', function(result) {
-			alert(result);
+// 			alert(result);
 			if (result) {
-				if (this.hashPassword(password) == result.password) {
+				if (this.hashPassword(password) === result.password) {
 					successCallback(this.state);
 					return;
 				} else {
-					failCallback({error: 'Not matching password'});
+					failCallback({
+						error: 'Not matching password'
+					});
 					return;
 				}
 			} 
-			failCallback({error: 'Not existing user'});
-		}.bind(this), failCallback);
+
+		}.bind(this), function() {
+			alert('error: Not existing user');
+		});
 	}
 
 	/**
