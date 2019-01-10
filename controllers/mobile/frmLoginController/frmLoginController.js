@@ -37,7 +37,7 @@ define({
     nav.navigate();
   },
 	
-  failLogin(result) {
-     alert(result);
+  failLogin(err) {
+     alert(err);
   }
 });
