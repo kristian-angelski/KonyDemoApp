@@ -15,17 +15,9 @@ class TweetDto extends DataObject {
     
     this.state = Object.assign(this.state, data);
   }
-		/**
-  	userId: int,
-    content: string
-  */
-	addTweet(id, content, successCallback, failCallback) {
 		
-		this.state = Object.assign(this.state, {
-			userId: id,
-		});
-		
-		this.state = Object.assign({}, content);
+	addTweet(data, successCallback, failCallback) {
+		this.state = Object.assign(this.state, data);
 		this.submit(successCallback, failCallback);
 	}
 }

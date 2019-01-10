@@ -33,18 +33,30 @@ define({
 		this.view.flxAddNewTweet.isVisible = false;
 		this.view.flxMain.isVisible = true;
 	},
-	
-	fail() {
-		alert('unable to create tweet');
+
+	fail(res) {
+		alert('unable to create tweet ' + JSON.stringify(res));
 	},
 
 	createPost() {
-		let user = new UserDto();
+		let currentUser = kony.store.getItem('loggedUser');
 		let tweet = new TweetDto();
 		let input = this.view.areaTweet.text;
-		alert(user);
-		
-		tweet.addTweet(5, input, this.addPost, this.fail);
-	}
+		let tweetInfo = {};
+		var currentDate = new Date();
 
+		if( input !== null && input !== '' ) {
+			tweetInfo = {
+				userId: currentUser.id,
+				content: input,
+				date: currentDate.toISOString(),
+				locLatitude: 0,
+				locLongitude: 0
+			};
+			alert(tweetInfo);
+			tweet.addTweet(tweetInfo, this.addPost, this.fail);
+		} else {
+			alert('tweet should not be empty');
+		}
+	}
 });
