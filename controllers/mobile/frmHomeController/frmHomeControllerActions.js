@@ -15,6 +15,6 @@ define({
     /** onClick defined for btnTweet **/
     AS_Button_f0c92e8bc78b4d77879c7c05b906ad96: function AS_Button_f0c92e8bc78b4d77879c7c05b906ad96(eventobject) {
         var self = this;
-        return self.addPost.call(this);
+        return self.createPost.call(this);
     }
 });

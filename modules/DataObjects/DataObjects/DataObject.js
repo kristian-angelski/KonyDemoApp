@@ -55,7 +55,7 @@ class DataObject {
     service.fetch({dataObject}, function (response) {
       const error = (message) => {
         if (errorCallback) {
-          errorCallback(new Error(message));
+          errorCallback((new Error(message).message));
         }
       };
       
