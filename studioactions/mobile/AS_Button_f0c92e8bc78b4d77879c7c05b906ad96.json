@@ -16,8 +16,8 @@
         "actions": [{
             "id": "INVOKE_FUNCTION___c5d4fb5f33c44fcca4e00826cda00994",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "addPost",
-            "display": "addPost",
+            "sequenceKUID": "createPost",
+            "display": "createPost",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,
