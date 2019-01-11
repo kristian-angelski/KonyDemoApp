@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "sa2d15df3c2045019c3b06ae5cd1cda3",
-    "_text_": "",
+    "_text_": "",
     "_top_": {
         "type": "number",
         "value": "0"
@@ -46,7 +46,7 @@
     },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblThree",
+    "id": "lblTwo",
     "info": null,
     "ipad": {
         "psp": {
@@ -60,10 +60,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "eae30417000e4c1b816adf118187dfc1",
+    "kuid": "b5989b318abd416ca91967101523a3ff",
     "name": "kony.ui.Label",
-    "parent": "flxThree",
-    "pf": "frmHome",
+    "parent": "flxTwo",
+    "pf": "frmAddNewTweet",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

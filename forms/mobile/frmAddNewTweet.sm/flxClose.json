@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -30,27 +30,26 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "20%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "btnTweet",
-        "flxItems"
+        "btnClose"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxBottom",
+    "id": "flxClose",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c442f2ed77be49f08ccc250fd97f8f17",
+    "kuid": "h44a23e409cb448d99ea74e15a7e116c",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxAddNewTweet",
-    "pf": "frmHome",
+    "parent": "flxUpper",
+    "pf": "frmAddNewTweet",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,

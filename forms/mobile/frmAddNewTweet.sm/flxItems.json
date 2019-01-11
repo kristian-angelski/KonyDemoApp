@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_margin_": [
         0,
@@ -30,26 +30,28 @@
     },
     "_width_": {
         "type": "string",
-        "value": "70dp"
+        "value": "210dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblOne"
+        "flxOne",
+        "flxTwo",
+        "flxThree"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxOne",
+    "id": "flxItems",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c67f75e71c694673b6d61ae707014087",
-    "layouttype": 2,
+    "kuid": "c5e6cd6a192e4512b0abb13ef9de81d3",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxItems",
-    "pf": "frmHome",
+    "parent": "flxBottom",
+    "pf": "frmAddNewTweet",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,

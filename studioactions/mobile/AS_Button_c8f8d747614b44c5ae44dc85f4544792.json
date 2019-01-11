@@ -1,25 +1,18 @@
 {
-    "AS_Button_f0c92e8bc78b4d77879c7c05b906ad96": {
-        "id": "AS_Button_f0c92e8bc78b4d77879c7c05b906ad96",
+    "AS_Button_c8f8d747614b44c5ae44dc85f4544792": {
+        "id": "AS_Button_c8f8d747614b44c5ae44dc85f4544792",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
-        "contextObj": {
-            "name": "frmHome",
-            "type": "forms",
-            "platform": "",
-            "KUID": "e025569d483d467488085c9245ed42de"
-        },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___c5d4fb5f33c44fcca4e00826cda00994",
+            "id": "INVOKE_FUNCTION__ide_onClick_ed2fee73f2184a41a5b3a6285f968fa2",
             "type": "INVOKE_FUNCTION",
             "sequenceKUID": "createPost",
             "display": "createPost",
             "inputparams": [],
-            "parentId": null,
             "callbackType": null,
             "disabled": null,
             "source": "controller"

@@ -7,14 +7,9 @@ define({
         var self = this;
         return self.showAddFrm.call(this);
     },
-    /** onClick defined for btnClose **/
-    AS_Button_i6a2575e4de5481e898d78a041e3b1ab: function AS_Button_i6a2575e4de5481e898d78a041e3b1ab(eventobject) {
+    /** preShow defined for frmHome **/
+    AS_Form_adc6489c9f3449eeaa96a46f3f0e69c5: function AS_Form_adc6489c9f3449eeaa96a46f3f0e69c5(eventobject) {
         var self = this;
-        return self.close.call(this);
-    },
-    /** onClick defined for btnTweet **/
-    AS_Button_f0c92e8bc78b4d77879c7c05b906ad96: function AS_Button_f0c92e8bc78b4d77879c7c05b906ad96(eventobject) {
-        var self = this;
-        return self.createPost.call(this);
+        return self.getAllPosts.call(this);
     }
 });
