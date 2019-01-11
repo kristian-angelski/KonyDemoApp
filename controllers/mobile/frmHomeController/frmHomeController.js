@@ -7,30 +7,28 @@ define({
 		nav.navigate();
 	},
 	
-	addPost() {
-		let input = this.view.areaTweet.text;
-
-		if (input === null || input === '') {
-			return;
-		}
-		let newPost = new com.softserveinc.post({
-			'id': Math.random(),
-			'isVisible': true
-		}, {}, {});
-
-		newPost.post = input;
-		try {
-			this.view.flxHomePosts.add(newPost);	
-			this.view.areaTweet.text = '';
-		} catch(err) {
-			alert('error occured ' + err);
-		}	
-	},
-	
 	getAllPosts() {
 		let tweet = new TweetDto();
 		tweet.findAll([], {}, 
-									(res) => alert(res), 
+									(res) => this.showTweets(res), 
 									(err) => alert(err));
+	},
+
+	showTweets(tweets) {
+		for (let tweet of tweets) {
+// 			alert(tweet.content);
+			let newPost = new com.softserveinc.post({
+				'id': tweet.userId,
+				'isVisible': true
+			}, {}, {});
+			
+			newPost.post = tweet.content;
+			try {
+				this.view.flxHomePosts.add(newPost);
+			} catch(err) {
+				alert('error occured ' + err);
+			}
+		}
+		
 	}
 });

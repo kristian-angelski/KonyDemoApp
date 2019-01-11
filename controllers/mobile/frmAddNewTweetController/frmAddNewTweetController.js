@@ -31,7 +31,7 @@ define({
 				locLatitude: 0,
 				locLongitude: 0
 			};
-			alert(tweetInfo);
+// 			alert(tweetInfo);
 			tweet.addTweet(tweetInfo, this.success, this.fail);
 		} else {
 			alert('tweet should not be empty');
