@@ -22,20 +22,29 @@ define({
 		let input = this.view.areaTweet.text;
 		let tweetInfo = {};
 		var currentDate = new Date();
-
-		if( input !== null && input !== '' ) {
-			tweetInfo = {
-				userId: currentUser.id,
-				content: input,
-				date: currentDate.toISOString(),
-				locLatitude: 0,
-				locLongitude: 0
-			};
-// 			alert(tweetInfo);
-			tweet.addTweet(tweetInfo, this.success, this.fail);
-		} else {
-			alert('tweet should not be empty');
-		}
-
+		
+		this.getLocation((position) => {
+			alert(position);
+			if( input !== null && input !== '' ) {
+				tweetInfo = {
+					userId: currentUser.id,
+					content: input,
+					date: position.coords.timestamp.toISOString(),
+					locLatitude: position.coords.latitude,
+					locLongitude: position.coords.longitude
+				};
+				// 			alert(tweetInfo);
+				tweet.addTweet(tweetInfo, this.success, this.fail);
+			} else {
+				alert('tweet should not be empty');
+			}
+		});
 	},
+
+	getLocation(successCallback) {
+		kony.location.getCurrentPosition(
+			(position) => successCallback(position), 
+			(err) => alert('unable to retrieve location'));
+	}
+
 });

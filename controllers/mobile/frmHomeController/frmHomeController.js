@@ -6,7 +6,7 @@ define({
 		let nav = new kony.mvc.Navigation('frmAddNewTweet');
 		nav.navigate();
 	},
-	
+
 	getAllPosts() {
 		let tweet = new TweetDto();
 		tweet.findAll([], {}, 
@@ -16,12 +16,12 @@ define({
 
 	showTweets(tweets) {
 		for (let tweet of tweets) {
-// 			alert(tweet.content);
+			// 			alert(tweet.content);
 			let newPost = new com.softserveinc.post({
 				'id': tweet.userId,
 				'isVisible': true
 			}, {}, {});
-			
+
 			newPost.post = tweet.content;
 			try {
 				this.view.flxHomePosts.add(newPost);
@@ -29,6 +29,6 @@ define({
 				alert('error occured ' + err);
 			}
 		}
-		
-	}
+	},
+
 });
