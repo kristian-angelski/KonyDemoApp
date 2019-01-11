@@ -58,5 +58,12 @@ define({
 		} else {
 			alert('tweet should not be empty');
 		}
+	},
+	
+	getAllPosts() {
+		let tweet = new TweetDto();
+		tweet.findAll([], {}, 
+									(res) => alert(res), 
+									(err) => alert(err));
 	}
 });

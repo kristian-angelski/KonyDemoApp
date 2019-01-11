@@ -16,5 +16,10 @@ define({
     AS_Button_f0c92e8bc78b4d77879c7c05b906ad96: function AS_Button_f0c92e8bc78b4d77879c7c05b906ad96(eventobject) {
         var self = this;
         return self.createPost.call(this);
+    },
+    /** preShow defined for frmHome **/
+    AS_Form_adc6489c9f3449eeaa96a46f3f0e69c5: function AS_Form_adc6489c9f3449eeaa96a46f3f0e69c5(eventobject) {
+        var self = this;
+        return self.getAllPosts.call(this);
     }
 });
