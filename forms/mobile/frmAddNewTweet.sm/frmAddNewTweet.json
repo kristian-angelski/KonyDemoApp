@@ -30,13 +30,13 @@
     },
     "canUpdateUI": true,
     "children": [
-        "flxMain"
+        "flxAddNewTweet"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmHomeController"
+            "name": "frmAddNewTweetController"
         }
     },
     "currentLocale": "default",
@@ -46,8 +46,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmHome",
-    "ide_preShow": "AS_Form_adc6489c9f3449eeaa96a46f3f0e69c5",
+    "id": "frmAddNewTweet",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -65,7 +64,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "j8dffb92509144d9b852c41cc406c88c",
+                "kuid": "h162861ca15c48039c664157f1f56e2a",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -76,7 +75,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "b1b2ded0e93e4fda962ddf00fd2a99fd",
+                        "kuid": "f60bf330a2e64529a6400ddd9b06a5fa",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -93,14 +92,14 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "e025569d483d467488085c9245ed42de",
+    "kuid": "a79a6b8f37654122b4078207aa386d87",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "GalaxyS8",
-    "prevPlatform": "android",
+    "prevDevice": "iPhoneX",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

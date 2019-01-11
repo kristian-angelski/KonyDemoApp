@@ -1,0 +1,21 @@
+{
+    "AS_Button_c8f8d747614b44c5ae44dc85f4544792": {
+        "id": "AS_Button_c8f8d747614b44c5ae44dc85f4544792",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ed2fee73f2184a41a5b3a6285f968fa2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "createPost",
+            "display": "createPost",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

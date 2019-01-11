@@ -1,6 +1,12 @@
 define({ 
 
 	//Type your controller code here 
+	showAddFrm() {
+		// navigate to FRMADDNEWTWEET	
+		let nav = new kony.mvc.Navigation('frmAddNewTweet');
+		nav.navigate();
+	},
+	
 	addPost() {
 		let input = this.view.areaTweet.text;
 
@@ -19,45 +25,6 @@ define({
 		} catch(err) {
 			alert('error occured ' + err);
 		}	
-
-		this.view.flxAddNewTweet.isVisible = false;
-		this.view.flxMain.isVisible = true;
-	},
-
-	showAddFrm() {
-		this.view.flxAddNewTweet.isVisible = true;
-		this.view.flxMain.isVisible = false;
-	},
-
-	close() {
-		this.view.flxAddNewTweet.isVisible = false;
-		this.view.flxMain.isVisible = true;
-	},
-
-	fail(res) {
-		alert('unable to create tweet ' + JSON.stringify(res));
-	},
-
-	createPost() {
-		let currentUser = kony.store.getItem('loggedUser');
-		let tweet = new TweetDto();
-		let input = this.view.areaTweet.text;
-		let tweetInfo = {};
-		var currentDate = new Date();
-
-		if( input !== null && input !== '' ) {
-			tweetInfo = {
-				userId: currentUser.id,
-				content: input,
-				date: currentDate.toISOString(),
-				locLatitude: 0,
-				locLongitude: 0
-			};
-			alert(tweetInfo);
-			tweet.addTweet(tweetInfo, this.addPost, this.fail);
-		} else {
-			alert('tweet should not be empty');
-		}
 	},
 	
 	getAllPosts() {
