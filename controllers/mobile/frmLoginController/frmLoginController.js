@@ -28,7 +28,7 @@ define({
 	},
 
 	logIn(user) {
-		// extracting needed info from current logged user
+		// extracting needed info from current logged uses
 		let currentUser = {
 			username: user.username,
 			fullName: user.fullName,

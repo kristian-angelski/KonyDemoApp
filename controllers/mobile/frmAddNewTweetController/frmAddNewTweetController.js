@@ -29,7 +29,7 @@ define({
 				tweetInfo = {
 					userId: currentUser.id,
 					content: input,
-					date: position.coords.timestamp.toISOString(),
+					date: position.coords.timestamp.toISOString(), 
 					locLatitude: position.coords.latitude,
 					locLongitude: position.coords.longitude
 				};

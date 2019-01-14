@@ -3,7 +3,7 @@ Example usage:
 
 var image = new MediaDto();
 image.image = 'mybase64_string';
-image.timeStamp = new Date().toISOString();
+image.date = new Date().toISOString();
 image.submit(function(result){
 	//implement success callback function
 }, function(error){
@@ -18,8 +18,13 @@ class MediaDto extends DataObject {
     super('media');
     
     super.defineProperty('image');
-    super.defineProperty('timeStamp');
+    super.defineProperty('date');
     
-    this.state = Object.assign({}, data);
+    this.state = Object.assign(this.state, data);
   }
+	
+	uploadImage(data, successCallback, failCallback) {
+		this.state = Object.assign(this.state, data);
+		this.submit(successCallback, failCallback);
+	}
 }
