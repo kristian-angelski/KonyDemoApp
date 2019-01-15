@@ -9,18 +9,17 @@ define({
 			date: new Date().toISOString()
 		};
 
-		image.uploadImg(imgInfo, (result) => {
+		image.uploadImage(imgInfo, (result) => {
 			currentLogged = Object.assign(currentLogged, {profileImg: result.id});
 			user.updateProfile(currentLogged, (result) => {
 				alert("successfully uploaded profile image.");
+				this.view.imgProfilePhoto.base64 = eventobject.base64;
 			}, (error) => {
 				alert(JSON.stringify(error));
 			});
 		}, (error) => { 
 			alert(JSON.stringify(error));
 		});
-
-		this.view.imgProfilePhoto.base64 = eventobject.base64;
 	},
 
 	changeName: function() {
@@ -38,18 +37,17 @@ define({
 			date: new Date().toISOString()
 		};
 
-		image.uploadImg(imgInfo, (result) => {
+		image.uploadImage(imgInfo, (result) => {
 			currentLogged = Object.assign(currentLogged, {coverImg: result.id});
 			user.updateProfile(currentLogged, (result) => {
 				alert("successfully uploaded cover image.");
+				this.view.imgWallpaper.base64 = eventobject.base64;
 			}, (error) => {
 				alert(JSON.stringify(error));
 			});
 		}, (error) => { 
 			alert(JSON.stringify(error));
 		});
-
-		this.view.imgWallpaper.base64 = eventobject.base64;
 	},
 
 	toFrmProfile() {
