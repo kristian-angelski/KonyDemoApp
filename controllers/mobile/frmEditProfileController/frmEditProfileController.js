@@ -1,6 +1,6 @@
 define({ 
 
-	capturePhoto: function(eventobject){
+	capturePhoto: function(eventobject) {
 		let image = new MediaDto();
 		let user = new UserDto();
 		let currentLogged = kony.store.getItem('loggedUser');

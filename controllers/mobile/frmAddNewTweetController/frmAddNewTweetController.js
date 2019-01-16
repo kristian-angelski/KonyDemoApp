@@ -21,19 +21,17 @@ define({
 		let tweet = new TweetDto();
 		let input = this.view.areaTweet.text;
 		let tweetInfo = {};
-		var currentDate = new Date();
-		
+
 		this.getLocation((position) => {
-			alert(position);
 			if( input !== null && input !== '' ) {
 				tweetInfo = {
 					userId: currentUser.id,
 					content: input,
-					date: position.coords.timestamp.toISOString(), 
+					date: new Date().toISOString(), 
 					locLatitude: position.coords.latitude,
 					locLongitude: position.coords.longitude
 				};
-				// 			alert(tweetInfo);
+// 				alert(tweetInfo);
 				tweet.addTweet(tweetInfo, this.success, this.fail);
 			} else {
 				alert('tweet should not be empty');

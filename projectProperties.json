@@ -29,7 +29,7 @@
     "project.type": "js",
     "project_version": "sprint32",
     "referenceWidth": "375",
-    "startupformkey": "b7bce20c862840659d421315a8fd7755",
+    "startupformkey": "a79a6b8f37654122b4078207aa386d87",
     "vendornamekey": "KonyLabs",
     "winmobileguidkey": "",
     "defaulttheme": "defaultTheme",
@@ -197,14 +197,14 @@
         "osPlatform": ""
     },
     "accountCloudGuid": "990b7119-9591-4481-a42a-75650efa137e",
-    "projectCloudGuid": "fe39ae62-5849-4d60-89cc-3c144cb8eaa9",
+    "projectCloudGuid": "ffc66024-b0cf-43c3-a779-a391805f056c",
     "prototype": {
-        "PublishMode": "public",
-        "resourceId": "4f575189-bb60-4ceb-b589-764ba6c4b0ce",
+        "createdOn": "2019-01-16T09:58:57.695Z",
+        "createdById": "8a53242e-d7d0-4e24-ab51-acd9a586590e",
         "createdBy": "Kristian Angelski",
-        "shareGuid": "CR1Q9",
-        "createdOn": "2018-12-04T19:03:08.109Z",
-        "createdById": "8a53242e-d7d0-4e24-ab51-acd9a586590e"
+        "shareGuid": "TFX8S",
+        "resourceId": "4863bbcf-1eb5-4004-90ab-85328bd97502",
+        "PublishMode": "public"
     },
     "wap_bb400_fontsize": "14",
     "wap_bb360_fontsize": "13",
